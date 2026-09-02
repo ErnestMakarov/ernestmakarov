@@ -14,5 +14,53 @@
     ],
     "projects": "Vaata projekte",
     "imageAlt": "Kaasaegse veebilehe arendusprotsess"
+  },
+  "featuredWork": {
+  "eyebrow": "Valitud tööd",
+  "title": [
+    "Kolm projekti.",
+    "Kolm erinevat karakterit."
+  ],
+  "allProjects": "Kõik projektid",
+  "description": "Erinevad ülesanded. Üks lähenemine — disain, mis töötab.",
+  "projects": {
+    "exfrag": {
+      "category": "Rõivabränd"
+    },
+    "mfc": {
+      "category": "Spordiklubi"
+    },
+    "voltamp": {
+      "category": "Päikeseenergia"
+    }
   }
+},
+"process": {
+  "eyebrow": "Protsess",
+  "title": [
+    "Selge protsess.",
+    "Tugev tulemus."
+  ],
+  "description": "Esimesest vestlusest kuni käivitamiseni — ilma kaose ja üleliigsete etappideta.",
+  "imageAlt": "Kaasaegse veebilehe arendamise etapid",
+  "more": "Vaata protsessi lähemalt",
+  "steps": [
+    {
+      "title": "Tutvumine",
+      "description": "Arutame ülesannet, sihtrühma ja projekti eesmärke."
+    },
+    {
+      "title": "Disain",
+      "description": "Koostan struktuuri ja loon ühtse visuaalse süsteemi."
+    },
+    {
+      "title": "Arendus",
+      "description": "Arendan adaptiivse veebilehe ja lisan vajaliku funktsionaalsuse."
+    },
+    {
+      "title": "Käivitamine",
+      "description": "Testin veebilehte, ühendan domeeni ja annan valmis projekti üle."
+    }
+  ]
+}
 }

@@ -14,5 +14,53 @@
     ],
     "projects": "View projects",
     "imageAlt": "Modern website development process"
+  },
+  "featuredWork": {
+  "eyebrow": "Selected work",
+  "title": [
+    "Three projects.",
+    "Three distinct characters."
+  ],
+  "allProjects": "All projects",
+  "description": "Different challenges. One approach — design that works.",
+  "projects": {
+    "exfrag": {
+      "category": "Clothing brand"
+    },
+    "mfc": {
+      "category": "Sports club"
+    },
+    "voltamp": {
+      "category": "Solar energy"
+    }
   }
+},
+"process": {
+  "eyebrow": "Process",
+  "title": [
+    "A clear process.",
+    "A strong result."
+  ],
+  "description": "From the first conversation to launch — without chaos or unnecessary steps.",
+  "imageAlt": "Modern website development stages",
+  "more": "Explore the process",
+  "steps": [
+    {
+      "title": "Discovery",
+      "description": "We discuss the challenge, audience and project goals."
+    },
+    {
+      "title": "Design",
+      "description": "I build the structure and create a consistent visual system."
+    },
+    {
+      "title": "Development",
+      "description": "I build the responsive website and add the required functionality."
+    },
+    {
+      "title": "Launch",
+      "description": "I test the website, connect the domain and deliver the finished project."
+    }
+  ]
+}
 }

@@ -91,7 +91,7 @@ function HomeHero() {
                 alt={t("hero.imageAlt")}
                 fetchPriority="high"
                 decoding="async"
-                className="pointer-events-none absolute left-1/2 top-1/2 z-10 w-[190%] max-w-none -translate-x-1/2 -translate-y-1/2 scale-[1.18] object-contain drop-shadow-[0_35px_50px_rgba(17,30,50,0.14)] sm:w-[170%] sm:scale-[1.25] lg:left-[52%] lg:w-[180%] lg:-translate-x-[43%] lg:scale-[1.48]"
+                className="pointer-events-none absolute left-1/2 top-1/2 z-10 w-[118%] max-w-none -translate-x-1/2 -translate-y-1/2 object-contain drop-shadow-[0_30px_45px_rgba(17,30,50,0.14)] sm:w-[112%] lg:left-[54%] lg:w-[126%] lg:-translate-x-[48%]"
             />
             </div>
       </div>
