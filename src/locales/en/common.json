@@ -13,5 +13,30 @@
     "changeLanguage": "Change language:",
     "openMenu": "Open menu",
     "closeMenu": "Close menu"
-  }
+  },
+  "footer": {
+  "title": [
+    "Websites that",
+    "move businesses",
+    "forward"
+  ],
+  "role": "Frontend developer",
+  "description": "I create fast and distinctive websites for businesses that want to stand out.",
+  "availability": "Available for new projects",
+  "availabilityPeriod": "Autumn 2026",
+  "discussProject": "Discuss a project",
+  "sections": {
+    "navigation": "Navigation",
+    "contact": "Contact",
+    "language": "Language"
+  },
+  "languages": {
+    "ru": "Русский",
+    "en": "English",
+    "et": "Eesti"
+  },
+  "madeWith": "Made with attention to detail.",
+  "privacy": "Privacy policy",
+  "toTop": "Back to top"
+}
 }

@@ -670,7 +670,7 @@ function HomeContact() {
               : "translate-y-20 rotate-[2deg] opacity-0"
           }`}
         >
-          <div className="relative w-full max-w-[420px]">
+          <div className="relative w-full max-w-[370px]">
             <div className="pointer-events-none absolute -bottom-7 left-1/2 h-20 w-[82%] -translate-x-1/2 rounded-[50%] bg-[#0057FF]/15 blur-2xl" />
 
             <div className="relative rounded-[54px] border border-white/20 bg-[#070A10] p-[9px] shadow-[0_40px_90px_rgba(4,16,38,0.28),inset_0_0_0_1px_rgba(255,255,255,0.08)]">

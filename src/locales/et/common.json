@@ -13,5 +13,30 @@
     "changeLanguage": "Vaheta keelt:",
     "openMenu": "Ava menüü",
     "closeMenu": "Sulge menüü"
-  }
+  },
+  "footer": {
+  "title": [
+    "Veebilehed, mis",
+    "viivad ettevõtte",
+    "edasi"
+  ],
+  "role": "Frontend-arendaja",
+  "description": "Loon kiireid ja isikupäraseid veebilehti ettevõtetele, kes soovivad silma paista.",
+  "availability": "Avatud uutele projektidele",
+  "availabilityPeriod": "Sügis 2026",
+  "discussProject": "Arutame projekti",
+  "sections": {
+    "navigation": "Navigatsioon",
+    "contact": "Kontakt",
+    "language": "Keel"
+  },
+  "languages": {
+    "ru": "Русский",
+    "en": "English",
+    "et": "Eesti"
+  },
+  "madeWith": "Loodud tähelepanuga detailidele.",
+  "privacy": "Privaatsuspoliitika",
+  "toTop": "Tagasi üles"
+}
 }

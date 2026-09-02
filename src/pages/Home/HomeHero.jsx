@@ -17,17 +17,17 @@ function HomeHero() {
       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_76%_42%,rgba(255,255,255,0.96)_0%,rgba(246,245,242,0)_52%)]" />
 
       <div className="relative mx-auto grid w-full max-w-[1600px] px-5 pb-16 pt-4 sm:px-8 sm:pt-8 lg:min-h-[calc(100svh-72px)] lg:grid-cols-[38%_62%] lg:items-center lg:px-9 lg:py-8">
-        <div className="order-2 relative z-20 flex flex-col items-start pt-5 sm:pt-8 lg:order-1 lg:py-16 lg:pr-6">
+        <div className="relative z-20 order-2 flex flex-col items-start pt-5 sm:pt-8 lg:order-1 lg:py-16 lg:pr-6">
           <p className="mb-4 text-[10px] font-medium uppercase tracking-[0.11em] text-[#555] sm:text-[11px] lg:mb-5 lg:text-[12px]">
             {t("hero.eyebrow")}
           </p>
 
-          <h1 className="font-['Oswald'] text-[clamp(44px,13vw,58px)] font-medium uppercase leading-[0.98] tracking-[-0.025em] text-[#111] lg:hidden">
+          <h1 className="font-['Oswald'] text-[clamp(44px,13vw,58px)] font-medium uppercase leading-[1.04] tracking-[-0.02em] text-[#111] lg:hidden">
             {titleLines.join(" ")}
             <span className="text-[#0057FF]">.</span>
           </h1>
 
-          <h1 className="hidden font-['Oswald'] text-[clamp(60px,4.5vw,84px)] font-medium uppercase leading-[0.96] tracking-[-0.035em] text-[#111] lg:block">
+          <h1 className="hidden font-['Oswald'] text-[clamp(60px,4.5vw,84px)] font-medium uppercase leading-[1.045] tracking-[-0.025em] text-[#111] lg:block">
             {titleLines.map((line, index) => (
               <span
                 key={`${line}-${index}`}
@@ -41,9 +41,11 @@ function HomeHero() {
             ))}
           </h1>
 
-          <p className="mt-6 max-w-[390px] text-[15px] leading-[1.6] text-[#626262] sm:text-[16px] lg:mt-7">
-            {t("hero.description")}
-          </p>
+          <div className="pt-5 lg:pt-6">
+            <p className="max-w-[390px] text-[15px] leading-[1.6] text-[#626262] sm:text-[16px]">
+              {t("hero.description")}
+            </p>
+          </div>
 
           <div className="mt-7 flex flex-wrap items-center gap-x-3 gap-y-2 lg:mt-8">
             {serviceItems.map((service, index) => (
@@ -85,15 +87,15 @@ function HomeHero() {
           </Link>
         </div>
 
-        <div className="order-1 relative flex h-[360px] items-center justify-center sm:h-[470px] lg:order-2 lg:h-auto lg:min-h-[680px]">
-            <img
-                src={heroVisual}
-                alt={t("hero.imageAlt")}
-                fetchPriority="high"
-                decoding="async"
-                className="pointer-events-none absolute left-1/2 top-1/2 z-10 w-[118%] max-w-none -translate-x-1/2 -translate-y-1/2 object-contain drop-shadow-[0_30px_45px_rgba(17,30,50,0.14)] sm:w-[112%] lg:left-[54%] lg:w-[126%] lg:-translate-x-[48%]"
-            />
-            </div>
+        <div className="relative order-1 flex h-[360px] items-center justify-center sm:h-[470px] lg:order-2 lg:h-auto lg:min-h-[680px]">
+          <img
+            src={heroVisual}
+            alt={t("hero.imageAlt")}
+            fetchPriority="high"
+            decoding="async"
+            className="pointer-events-none absolute left-1/2 top-1/2 z-10 w-[118%] max-w-none -translate-x-1/2 -translate-y-1/2 object-contain drop-shadow-[0_30px_45px_rgba(17,30,50,0.14)] sm:w-[112%] lg:left-[54%] lg:w-[126%] lg:-translate-x-[48%]"
+          />
+        </div>
       </div>
     </section>
   );
