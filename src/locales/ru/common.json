@@ -1,10 +1,17 @@
 {
   "navigation": {
     "home": "Главная",
-    "works": "Работы",
+    "work": "Работы",
     "services": "Услуги",
     "process": "Процесс",
     "about": "Обо мне",
-    "contacts": "Контакты"
+    "contacts": "Контакт"
+  },
+  "header": {
+    "logoLabel": "На главную",
+    "discussProject": "Обсудить проект",
+    "changeLanguage": "Изменить язык:",
+    "openMenu": "Открыть меню",
+    "closeMenu": "Закрыть меню"
   }
 }

@@ -1,10 +1,17 @@
 {
   "navigation": {
-    "home": "Home",
-    "works": "Works",
-    "services": "Services",
-    "process": "Process",
-    "about": "About me",
-    "contacts": "Contacts"
+    "home": "Avaleht",
+    "work": "Tööd",
+    "services": "Teenused",
+    "process": "Protsess",
+    "about": "Minust",
+    "contacts": "Kontakt"
+  },
+  "header": {
+    "logoLabel": "Avalehele",
+    "discussProject": "Arutame projekti",
+    "changeLanguage": "Vaheta keelt:",
+    "openMenu": "Ava menüü",
+    "closeMenu": "Sulge menüü"
   }
 }

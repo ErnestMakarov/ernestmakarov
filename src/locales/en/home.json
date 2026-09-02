@@ -1,8 +1,18 @@
 {
   "hero": {
-    "label": "Ernest",
-    "title": "best website",
-    "description": "website adsadsadad",
-    "button": "Join us"
+    "eyebrow": "Frontend developer · Tallinn",
+    "title": [
+      "Websites that",
+      "move businesses",
+      "forward"
+    ],
+    "description": "Independent web developer based in Estonia. I create fast and distinctive websites that help businesses grow.",
+    "services": [
+      "Strategy",
+      "Design",
+      "Development"
+    ],
+    "projects": "View projects",
+    "imageAlt": "Modern website development process"
   }
 }

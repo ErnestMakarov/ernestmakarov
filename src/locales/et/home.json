@@ -1,8 +1,18 @@
 {
   "hero": {
-    "label": "Ernest",
-    "title": "koige parem veebileht",
-    "description": "veebileht adsadsadad",
-    "button": "Liitu meiega"
+    "eyebrow": "Frontend-arendaja · Tallinn",
+    "title": [
+      "Veebilehed, mis",
+      "viivad ettevõtte",
+      "edasi"
+    ],
+    "description": "Sõltumatu veebiarendaja Eestist. Loon kiireid ja isikupäraseid veebilehti, mis aitavad ettevõtetel kasvada.",
+    "services": [
+      "Strateegia",
+      "Disain",
+      "Arendus"
+    ],
+    "projects": "Vaata projekte",
+    "imageAlt": "Kaasaegse veebilehe arendusprotsess"
   }
 }

@@ -1,10 +1,17 @@
 {
   "navigation": {
-    "home": "Avaleht",
-    "works": "Tööd",
-    "services": "Teenused",
-    "process": "Protsess",
-    "about": "Minust",
-    "contacts": "Kontakt"
+    "home": "Home",
+    "work": "Work",
+    "services": "Services",
+    "process": "Process",
+    "about": "About",
+    "contacts": "Contact"
+  },
+  "header": {
+    "logoLabel": "Go to homepage",
+    "discussProject": "Discuss a project",
+    "changeLanguage": "Change language:",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
   }
 }
