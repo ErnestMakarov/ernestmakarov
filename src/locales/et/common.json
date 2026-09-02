@@ -1,17 +1,17 @@
 {
   "navigation": {
-    "home": "Home",
-    "work": "Work",
-    "services": "Services",
-    "process": "Process",
-    "about": "About",
-    "contacts": "Contact"
+    "home": "Avaleht",
+    "work": "Tööd",
+    "services": "Teenused",
+    "process": "Protsess",
+    "about": "Minust",
+    "contacts": "Kontakt"
   },
   "header": {
-    "logoLabel": "Go to homepage",
-    "discussProject": "Discuss a project",
-    "changeLanguage": "Change language:",
-    "openMenu": "Open menu",
-    "closeMenu": "Close menu"
+    "logoLabel": "Avalehele",
+    "discussProject": "Arutame projekti",
+    "changeLanguage": "Vaheta keelt:",
+    "openMenu": "Ava menüü",
+    "closeMenu": "Sulge menüü"
   }
 }
