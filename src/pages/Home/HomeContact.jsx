@@ -22,8 +22,8 @@ const CONTACT_METHODS = [
 
 const INPUT_STAGES = ["name", "project", "details", "contactValue"];
 
-const DIRECT_EMAIL = "hello@ernestmakarov.ee";
-const TELEGRAM_URL = "https://t.me/USERNAME";
+const DIRECT_EMAIL = "ernestmakarov.ee@gmail.com";
+const TELEGRAM_URL = "https://t.me/ernestweb";
 
 function ArrowIcon({ className = "" }) {
   return (
@@ -519,21 +519,25 @@ function HomeContact() {
     }).format(new Date());
 
     const templateParams = {
-      from_name: answers.name,
-      project_type: projectName,
-      project_details: answers.details,
-      contact_method: contactMethodName,
-      contact_value: answers.contactValue,
-      language: language.toUpperCase(),
-      submitted_at: submittedAt,
-      page_url: window.location.href,
-      message: [
-        `${t("contactChat.email.name")}: ${answers.name}`,
-        `${t("contactChat.email.project")}: ${projectName}`,
-        `${t("contactChat.email.details")}: ${answers.details}`,
-        `${t("contactChat.email.contact")}: ${contactMethodName}`,
-        `${t("contactChat.email.contactValue")}: ${answers.contactValue}`,
-      ].join("\n"),
+        from_name: answers.name,
+        reply_to:
+            answers.contactMethod === "email"
+            ? answers.contactValue
+            : DIRECT_EMAIL,
+        project_type: projectName,
+        project_details: answers.details,
+        contact_method: contactMethodName,
+        contact_value: answers.contactValue,
+        language: language.toUpperCase(),
+        submitted_at: submittedAt,
+        page_url: window.location.href,
+        message: [
+            `${t("contactChat.email.name")}: ${answers.name}`,
+            `${t("contactChat.email.project")}: ${projectName}`,
+            `${t("contactChat.email.details")}: ${answers.details}`,
+            `${t("contactChat.email.contact")}: ${contactMethodName}`,
+            `${t("contactChat.email.contactValue")}: ${answers.contactValue}`,
+        ].join("\n"),
     };
 
     try {
