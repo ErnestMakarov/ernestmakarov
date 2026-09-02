@@ -78,7 +78,7 @@ function HomeProjects() {
 
   return (
     <section className="relative">
-      <div className="mx-auto w-full max-w-[1600px] px-5 py-24 sm:px-8 sm:py-28 lg:px-9 lg:py-36">
+      <div className="mx-auto w-full max-w-[1600px] px-5 pb-0 pt-24 sm:px-8 sm:pt-28 lg:px-9 lg:pt-36">
         <div className="flex items-end justify-between gap-10">
           <div>
             <p className="mb-7 text-[10px] font-semibold uppercase tracking-[0.22em] text-[#333] sm:text-[11px]">
@@ -154,7 +154,7 @@ function HomeProjects() {
           <LongArrowIcon />
         </Link>
 
-        <div className="mt-20 border-b border-black/15 pb-12 sm:mt-28 sm:pb-16 lg:mt-36">
+        <div className="mt-16 border-b border-black/15 pb-10 sm:mt-20 sm:pb-12 lg:mt-24">
             <p className="max-w-[650px] text-[14px] leading-[1.7] text-[#777] sm:text-[15px]">
                 {t("featuredWork.description")}
             </p>

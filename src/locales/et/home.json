@@ -18,11 +18,11 @@
   "featuredWork": {
   "eyebrow": "Valitud tööd",
   "title": [
-    "Kolm projekti.",
-    "Kolm erinevat karakterit."
+    "Hiljutised projektid.",
+    "Erinevad ülesanded — tugevad lahendused."
   ],
   "allProjects": "Kõik projektid",
-  "description": "Erinevad ülesanded. Üks lähenemine — disain, mis töötab.",
+  "description": "Iga projekt ühendab läbimõeldud struktuuri, väljendusrikka disaini ja tähelepanu detailidele.",
   "projects": {
     "exfrag": {
       "category": "Rõivabränd"
@@ -62,5 +62,96 @@
       "description": "Testin veebilehte, ühendan domeeni ja annan valmis projekti üle."
     }
   ]
+},
+"contactChat": {
+  "eyebrow": "Kontakt",
+  "title": {
+    "line1": "Sinu järgmine veebileht",
+    "line2": "algab lihtsast",
+    "line3": "„Tere“."
+  },
+  "description": "Vasta neljale lühikesele küsimusele — saan sinu päringu kätte ja võtan sinuga isiklikult ühendust sulle sobival viisil.",
+  "benefits": {
+    "noForm": "Ilma pika vormita",
+    "fast": "Vähem kui minut"
+  },
+  "responseTime": "Vastan tavaliselt ühe tööpäeva jooksul",
+  "directQuestion": "Soovid kirjutada otse?",
+  "progress": "Samm {{current}} neljast",
+  "sendButton": "Saada vastus",
+  "projects": {
+    "landing": "Maandumisleht",
+    "multipage": "Mitmeleheline veebileht",
+    "store": "E-pood",
+    "redesign": "Ümberkujundus",
+    "other": "Muu"
+  },
+  "contactMethods": {
+    "email": "Email",
+    "telegram": "Telegram",
+    "whatsapp": "WhatsApp",
+    "instagram": "Instagram",
+    "phone": "Telefon"
+  },
+  "chat": {
+    "online": "online",
+    "greeting": "Tere! Mis sinu nimi on?",
+    "askProject": "Meeldiv tutvuda, {{name}}. Mida soovid luua?",
+    "askDetails": "Räägi projektist kahe või kolme lausega. Mida peaks veebileht tegema ja kellele see on mõeldud?",
+    "askContactMethod": "Kuhu oleks sul kõige mugavam minu vastus saada?",
+    "reviewReady": "Suurepärane, {{name}}. Kontrolli andmed üle ja saan sinu päringu kohe kätte.",
+    "success": "Päring on saadetud, {{name}}. Vaatan selle isiklikult üle ja võtan sinuga ühe tööpäeva jooksul ühendust.",
+    "contactPrompts": {
+      "email": "Millisele emailile peaksin vastuse saatma?",
+      "telegram": "Sisesta oma Telegrami kasutajanimi.",
+      "whatsapp": "Sisesta WhatsAppiga seotud telefoninumber.",
+      "instagram": "Sisesta oma Instagrami kasutajanimi.",
+      "phone": "Sisesta telefoninumber, millele saan helistada."
+    }
+  },
+  "placeholders": {
+    "name": "Sisesta oma nimi...",
+    "project": "Või kirjelda oma projekti...",
+    "details": "Kirjelda projekti lühidalt...",
+    "waiting": "Ootan sõnumit...",
+    "completed": "Päring on edukalt saadetud",
+    "contacts": {
+      "email": "name@example.com",
+      "telegram": "@username",
+      "whatsapp": "+372...",
+      "instagram": "@username",
+      "phone": "+372..."
+    }
+  },
+  "review": {
+    "title": "Sinu päring",
+    "name": "Nimi",
+    "project": "Projekt",
+    "contact": "Kontakt",
+    "send": "Saada päring",
+    "sending": "Saadan...",
+    "restart": "Alusta uuesti"
+  },
+  "notification": {
+    "title": "Uus sõnum",
+    "text": "Päring jõudis Ernestini"
+  },
+  "validation": {
+    "name": "Sisesta vähemalt kahest tähemärgist koosnev nimi.",
+    "project": "Kirjelda, millist veebilehte vajad.",
+    "details": "Lisa projekti kohta veidi rohkem teavet.",
+    "email": "Sisesta korrektne email.",
+    "phone": "Sisesta korrektne telefoninumber.",
+    "username": "Sisesta korrektne kasutajanimi.",
+    "configuration": "EmailJS ei ole veel seadistatud. Lisa võtmed faili .env.local.",
+    "send": "Päringu saatmine ebaõnnestus. Kontrolli ühendust ja proovi uuesti."
+  },
+  "email": {
+    "name": "Nimi",
+    "project": "Projekti tüüp",
+    "details": "Kirjeldus",
+    "contact": "Suhtlusviis",
+    "contactValue": "Kontakt"
+  }
 }
 }

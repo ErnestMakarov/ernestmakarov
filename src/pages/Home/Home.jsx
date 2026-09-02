@@ -1,6 +1,7 @@
 import HomeHero from "./HomeHero.jsx";
 import HomeProjects from "./HomeProjects.jsx";
 import HomeProcess from "./HomeProcess.jsx";
+import HomeContact from "./HomeContact.jsx";
 
 function HomePage() {
   return (
@@ -8,6 +9,7 @@ function HomePage() {
       <HomeHero />
       <HomeProjects />
       <HomeProcess />
+      <HomeContact />
     </main>
   );
 }

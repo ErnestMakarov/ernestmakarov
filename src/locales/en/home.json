@@ -18,11 +18,11 @@
   "featuredWork": {
   "eyebrow": "Selected work",
   "title": [
-    "Three projects.",
-    "Three distinct characters."
+    "Recent projects.",
+    "Different challenges — strong solutions."
   ],
   "allProjects": "All projects",
-  "description": "Different challenges. One approach — design that works.",
+  "description": "Every project combines thoughtful structure, distinctive design, and attention to detail.",
   "projects": {
     "exfrag": {
       "category": "Clothing brand"
@@ -62,5 +62,96 @@
       "description": "I test the website, connect the domain and deliver the finished project."
     }
   ]
+},
+"contactChat": {
+  "eyebrow": "Contact",
+  "title": {
+    "line1": "Your next website",
+    "line2": "starts with a simple",
+    "line3": "“Hello”."
+  },
+  "description": "Answer four short questions — I will receive your request and personally contact you in the most convenient way.",
+  "benefits": {
+    "noForm": "No long forms",
+    "fast": "Less than a minute"
+  },
+  "responseTime": "I usually respond within one working day",
+  "directQuestion": "Prefer to contact me directly?",
+  "progress": "Step {{current}} of 4",
+  "sendButton": "Send answer",
+  "projects": {
+    "landing": "Landing page",
+    "multipage": "Multi-page website",
+    "store": "Online store",
+    "redesign": "Redesign",
+    "other": "Other"
+  },
+  "contactMethods": {
+    "email": "Email",
+    "telegram": "Telegram",
+    "whatsapp": "WhatsApp",
+    "instagram": "Instagram",
+    "phone": "Phone"
+  },
+  "chat": {
+    "online": "online",
+    "greeting": "Hello! What is your name?",
+    "askProject": "Nice to meet you, {{name}}. What would you like to create?",
+    "askDetails": "Tell me about your project in two or three sentences. What should the website do, and who is it for?",
+    "askContactMethod": "Where would you prefer to receive my response?",
+    "reviewReady": "Great, {{name}}. Check the information and I will receive your request immediately.",
+    "success": "Your request has been sent, {{name}}. I will personally review it and contact you within one working day.",
+    "contactPrompts": {
+      "email": "Which email address should I use?",
+      "telegram": "Enter your Telegram username.",
+      "whatsapp": "Enter the phone number connected to WhatsApp.",
+      "instagram": "Enter your Instagram username.",
+      "phone": "Enter the phone number I can call."
+    }
+  },
+  "placeholders": {
+    "name": "Enter your name...",
+    "project": "Or describe your project...",
+    "details": "Tell me briefly about your project...",
+    "waiting": "Waiting for a message...",
+    "completed": "Request successfully sent",
+    "contacts": {
+      "email": "name@example.com",
+      "telegram": "@username",
+      "whatsapp": "+372...",
+      "instagram": "@username",
+      "phone": "+372..."
+    }
+  },
+  "review": {
+    "title": "Your request",
+    "name": "Name",
+    "project": "Project",
+    "contact": "Contact",
+    "send": "Send request",
+    "sending": "Sending...",
+    "restart": "Restart"
+  },
+  "notification": {
+    "title": "New message",
+    "text": "Your request was delivered to Ernest"
+  },
+  "validation": {
+    "name": "Enter a name containing at least two characters.",
+    "project": "Tell me what kind of website you need.",
+    "details": "Please add a little more information about your project.",
+    "email": "Enter a valid email address.",
+    "phone": "Enter a valid phone number.",
+    "username": "Enter a valid username.",
+    "configuration": "EmailJS is not configured yet. Add the keys to .env.local.",
+    "send": "The request could not be sent. Check your connection and try again."
+  },
+  "email": {
+    "name": "Name",
+    "project": "Project type",
+    "details": "Description",
+    "contact": "Contact method",
+    "contactValue": "Contact"
+  }
 }
 }
