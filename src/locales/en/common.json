@@ -38,5 +38,52 @@
   "madeWith": "Made with attention to detail.",
   "privacy": "Privacy policy",
   "toTop": "Back to top"
+},
+"pageHeroes": {
+  "work": {
+    "number": "01",
+    "eyebrow": "Selected projects",
+    "title": [
+      "Work where design",
+      "solves problems."
+    ],
+    "description": "Projects for different businesses — from a fashion brand to a sports club and solar energy."
+  },
+  "services": {
+    "number": "02",
+    "eyebrow": "Services",
+    "title": [
+      "Websites with purpose.",
+      "Nothing unnecessary."
+    ],
+    "description": "From a focused landing page to an online store — I will find the right format for your goals, timeline and budget."
+  },
+  "process": {
+    "number": "03",
+    "eyebrow": "Process",
+    "title": [
+      "How a strong",
+      "website is built."
+    ],
+    "description": "From the first idea to launch — a clear process where every step has a purpose."
+  },
+  "about": {
+    "number": "04",
+    "eyebrow": "About me",
+    "title": [
+      "Design, code",
+      "and attention to detail."
+    ],
+    "description": "My name is Ernest Makarov. For three years, I have been designing and developing websites that help businesses look stronger."
+  },
+  "contacts": {
+    "number": "05",
+    "eyebrow": "Contact",
+    "title": [
+      "Getting in touch",
+      "is easier than it seems."
+    ],
+    "description": "Choose a convenient contact method or answer a few questions in the chat — I will receive your message and contact you personally."
+  }
 }
 }

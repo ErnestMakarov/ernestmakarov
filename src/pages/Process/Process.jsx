@@ -1,7 +1,11 @@
-import React from 'react'
+import PageHero from "../../components/ui/PageHero";
 
-export default function Process() {
+function Process() {
   return (
-    <div>Process</div>
-  )
+    <main>
+      <PageHero page="process" />
+    </main>
+  );
 }
+
+export default Process;

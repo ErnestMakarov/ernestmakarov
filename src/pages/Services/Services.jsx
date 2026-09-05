@@ -1,7 +1,11 @@
-import React from 'react'
+import PageHero from "../../components/ui/PageHero";
 
-export default function Services() {
+function Services() {
   return (
-    <div>Services</div>
-  )
+    <main>
+      <PageHero page="services" />
+    </main>
+  );
 }
+
+export default Services;

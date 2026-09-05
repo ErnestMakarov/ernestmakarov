@@ -1,7 +1,11 @@
-import React from 'react'
+import PageHero from "../../components/ui/PageHero";
 
-export default function Work() {
+function Work() {
   return (
-    <div>Work</div>
-  )
+    <main>
+      <PageHero page="work" />
+    </main>
+  );
 }
+
+export default Work;

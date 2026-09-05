@@ -38,5 +38,52 @@
   "madeWith": "Loodud tähelepanuga detailidele.",
   "privacy": "Privaatsuspoliitika",
   "toTop": "Tagasi üles"
+},
+"pageHeroes": {
+  "work": {
+    "number": "01",
+    "eyebrow": "Valitud projektid",
+    "title": [
+      "Tööd, kus disain",
+      "lahendab ülesande."
+    ],
+    "description": "Projektid erinevatele ettevõtetele — moebrändist spordiklubi ja päikeseenergiani."
+  },
+  "services": {
+    "number": "02",
+    "eyebrow": "Teenused",
+    "title": [
+      "Veebilehed eesmärgi järgi.",
+      "Ilma üleliigseta."
+    ],
+    "description": "Kompaktsest maandumislehest e-poeni — leian sobiva lahenduse teie eesmärkide, tähtaja ja eelarve järgi."
+  },
+  "process": {
+    "number": "03",
+    "eyebrow": "Protsess",
+    "title": [
+      "Kuidas sünnib",
+      "tugev veebileht."
+    ],
+    "description": "Esimesest ideest käivitamiseni — selge protsess, kus igal sammul on oma eesmärk."
+  },
+  "about": {
+    "number": "04",
+    "eyebrow": "Minust",
+    "title": [
+      "Disain, kood",
+      "ja tähelepanu detailidele."
+    ],
+    "description": "Minu nimi on Ernest Makarov. Olen kolm aastat loonud ja arendanud veebilehti, mis aitavad ettevõtetel tugevamalt silma paista."
+  },
+  "contacts": {
+    "number": "05",
+    "eyebrow": "Kontakt",
+    "title": [
+      "Ühendust võtta on",
+      "lihtsam, kui tundub."
+    ],
+    "description": "Valige sobiv suhtlusviis või vastake vestluses mõnele küsimusele — saan teie sõnumi kätte ja võtan isiklikult ühendust."
+  }
 }
 }
