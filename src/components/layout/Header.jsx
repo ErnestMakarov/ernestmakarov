@@ -49,7 +49,7 @@ function Header() {
   };
 
   return (
-    <header className="sticky top-0 z-50 border-b border-black/5 bg-[#F6F5F2]/95 backdrop-blur-xl">
+    <header className="sticky top-0 z-50 border-b border-white/60 bg-[#F6F5F2]/70 shadow-[0_8px_32px_rgba(17,24,39,0.045)] backdrop-blur-2xl backdrop-saturate-150 before:pointer-events-none before:absolute before:inset-x-0 before:top-0 before:h-px before:bg-white/80 supports-[backdrop-filter]:bg-[#F6F5F2]/60">
       <div className="mx-auto flex h-[72px] w-full max-w-[1600px] items-center justify-between px-5 sm:px-8 xl:grid xl:grid-cols-[1fr_auto_1fr] xl:px-9">
         <NavLink
           to="/"

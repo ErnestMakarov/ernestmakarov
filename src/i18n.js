@@ -10,6 +10,10 @@ import etHome from "./locales/et/home.json";
 import enHome from "./locales/en/home.json";
 import ruHome from "./locales/ru/home.json";
 
+import etWork from "./locales/et/work.json";
+import enWork from "./locales/en/work.json";
+import ruWork from "./locales/ru/work.json";
+
 import etAbout from "./locales/et/about.json";
 import enAbout from "./locales/en/about.json";
 import ruAbout from "./locales/ru/about.json";
@@ -26,18 +30,21 @@ i18n
       et: {
         common: etCommon,
         home: etHome,
+        work: etWork,
         about: etAbout,
         contacts: etContacts,
       },
       en: {
         common: enCommon,
         home: enHome,
+        work: enWork,
         about: enAbout,
         contacts: enContacts,
       },
       ru: {
         common: ruCommon,
         home: ruHome,
+        work: ruWork,
         about: ruAbout,
         contacts: ruContacts,
       },
@@ -48,7 +55,7 @@ i18n
     lng: localStorage.getItem("language") || "et",
 
     defaultNS: "common",
-    ns: ["common", "home"],
+    ns: ["common", "home", "work", "about", "contacts"],
 
     interpolation: {
       escapeValue: false,

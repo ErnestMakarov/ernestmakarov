@@ -1,0 +1,30 @@
+{
+  "openProject": "Open website",
+  "projects": {
+    "exfrag": {
+      "name": "EXFRAG",
+      "category": "Clothing brand",
+      "description": "An online store for an independent clothing brand with an atmospheric presentation and accessible catalogue.",
+      "imageAlt": "EXFRAG clothing brand website displayed on desktop and mobile devices"
+    },
+    "mfc": {
+      "name": "MFC",
+      "category": "Sports club",
+      "description": "A sports club website bringing together activities, trainers and class registration.",
+      "imageAlt": "MFC sports club website displayed on desktop and mobile devices"
+    },
+    "voltamp": {
+      "name": "VOLTAMP",
+      "category": "Solar energy",
+      "description": "A corporate energy website presenting complex services clearly and confidently.",
+      "imageAlt": "Voltamp energy company website displayed on desktop and mobile devices"
+    }
+  },
+  "github": {
+    "eyebrow": "More work",
+    "titleStart": "More projects —",
+    "titleAccent": "on GitHub.",
+    "description": "Experiments, personal projects and other work that did not make it into this selection.",
+    "button": "Open GitHub"
+  }
+}
