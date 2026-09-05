@@ -1,0 +1,76 @@
+{
+  "labels": {
+    "price": "Price",
+    "time": "Timeline"
+  },
+  "items": {
+    "landing": {
+      "title": "One-page website",
+      "description": "For a service, product, event or advertising campaign.",
+      "price": "from €300",
+      "duration": "7–10 days",
+      "features": [
+        "Custom visual design",
+        "Responsive on every device",
+        "Contact form and basic SEO"
+      ],
+      "action": "Discuss a landing page"
+    },
+    "multipage": {
+      "title": "Multi-page website",
+      "description": "For a business with several services, directions and sections.",
+      "price": "from €500",
+      "duration": "2–3 weeks",
+      "features": [
+        "Up to 5 main pages",
+        "Consistent visual system",
+        "Forms, animations and launch"
+      ],
+      "action": "Discuss a website"
+    },
+    "store": {
+      "badge": "Complete launch",
+      "title": "Online store",
+      "description": "For selling products and accepting online orders with ease.",
+      "price": "from €1,100",
+      "duration": "4–6 weeks",
+      "features": [
+        "Product catalogue and pages",
+        "Cart and checkout flow",
+        "Content management system"
+      ],
+      "action": "Discuss an online store"
+    },
+    "readyDesign": {
+      "title": "Development from your design",
+      "description": "I will turn your finished design into a fast and polished website.",
+      "price": "from €250",
+      "duration": "3–7 days",
+      "features": [
+        "Accurate responsive development",
+        "Interactive elements",
+        "Website setup and launch"
+      ],
+      "action": "Discuss development"
+    }
+  },
+  "repair": {
+    "eyebrow": "Already have a website?",
+    "title": "Website fixes and improvements",
+    "description": "I will fix bugs, responsiveness or performance and add the functionality you are missing.",
+    "price": "from €80",
+    "duration": "from 1 day",
+    "features": [
+      "Bug fixes",
+      "Mobile responsiveness",
+      "Performance improvements",
+      "New functionality"
+    ],
+    "action": "Send your website for review",
+    "note": "After reviewing it, I will provide the exact price and timeline with no obligation."
+  },
+  "custom": {
+    "description": "Did not find the right option? Tell me about your project and I will suggest a solution for your goals, timeline and budget.",
+    "action": "Discuss a project"
+  }
+}

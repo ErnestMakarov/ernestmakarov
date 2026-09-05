@@ -22,6 +22,10 @@ import etContacts from "./locales/et/contacts.json";
 import enContacts from "./locales/en/contacts.json";
 import ruContacts from "./locales/ru/contacts.json";
 
+import etServices from "./locales/et/services.json";
+import enServices from "./locales/en/services.json";
+import ruServices from "./locales/ru/services.json";
+
 i18n
   .use(LanguageDetector)
   .use(initReactI18next)
@@ -31,6 +35,7 @@ i18n
         common: etCommon,
         home: etHome,
         work: etWork,
+        services: etServices,
         about: etAbout,
         contacts: etContacts,
       },
@@ -38,6 +43,7 @@ i18n
         common: enCommon,
         home: enHome,
         work: enWork,
+        services: enServices,
         about: enAbout,
         contacts: enContacts,
       },
@@ -45,6 +51,7 @@ i18n
         common: ruCommon,
         home: ruHome,
         work: ruWork,
+        services: ruServices,
         about: ruAbout,
         contacts: ruContacts,
       },
@@ -55,7 +62,7 @@ i18n
     lng: localStorage.getItem("language") || "et",
 
     defaultNS: "common",
-    ns: ["common", "home", "work", "about", "contacts"],
+    ns: ["common", "home", "work", "services", "about", "contacts"],
 
     interpolation: {
       escapeValue: false,

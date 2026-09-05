@@ -1,0 +1,76 @@
+{
+  "labels": {
+    "price": "Hind",
+    "time": "Valmimisaeg"
+  },
+  "items": {
+    "landing": {
+      "title": "Üheleheline veebileht",
+      "description": "Teenuse, toote, sündmuse või reklaamikampaania jaoks.",
+      "price": "alates 300 €",
+      "duration": "7–10 päeva",
+      "features": [
+        "Individuaalne visuaalne disain",
+        "Kohandatud kõigile seadmetele",
+        "Kontaktivorm ja põhiline SEO"
+      ],
+      "action": "Aruta maandumislehte"
+    },
+    "multipage": {
+      "title": "Mitmeleheline veebileht",
+      "description": "Ettevõttele, millel on mitu teenust, suunda ja sisulehte.",
+      "price": "alates 500 €",
+      "duration": "2–3 nädalat",
+      "features": [
+        "Kuni 5 põhilehte",
+        "Ühtne visuaalne süsteem",
+        "Vormid, animatsioonid ja avaldamine"
+      ],
+      "action": "Aruta veebilehte"
+    },
+    "store": {
+      "badge": "Täielik käivitamine",
+      "title": "E-pood",
+      "description": "Toodete müümiseks ja tellimuste mugavaks vastuvõtmiseks veebis.",
+      "price": "alates 1 100 €",
+      "duration": "4–6 nädalat",
+      "features": [
+        "Tootekataloog ja tootelehed",
+        "Ostukorv ja tellimuse vormistamine",
+        "Sisuhaldussüsteem"
+      ],
+      "action": "Aruta e-poodi"
+    },
+    "readyDesign": {
+      "title": "Arendus valmis kujunduse põhjal",
+      "description": "Muudan teie valmis kujunduse kiireks ja viimistletud veebileheks.",
+      "price": "alates 250 €",
+      "duration": "3–7 päeva",
+      "features": [
+        "Täpne ja kohanduv arendus",
+        "Interaktiivsed elemendid",
+        "Veebilehe seadistamine ja avaldamine"
+      ],
+      "action": "Aruta arendust"
+    }
+  },
+  "repair": {
+    "eyebrow": "Veebileht on juba olemas?",
+    "title": "Veebilehe parandamine ja täiustamine",
+    "description": "Parandan vead, mobiilivaate või kiiruse ning lisan puuduva funktsionaalsuse.",
+    "price": "alates 80 €",
+    "duration": "alates 1 päevast",
+    "features": [
+      "Vigade parandamine",
+      "Mobiilivaate kohandamine",
+      "Laadimiskiiruse parandamine",
+      "Uute funktsioonide lisamine"
+    ],
+    "action": "Saada veebileht hindamisele",
+    "note": "Pärast ülevaatamist ütlen täpse hinna ja tähtaja — ilma kohustuseta."
+  },
+  "custom": {
+    "description": "Ei leidnud sobivat varianti? Kirjeldage oma projekti ja pakun lahenduse vastavalt eesmärkidele, ajale ja eelarvele.",
+    "action": "Aruta projekti"
+  }
+}
