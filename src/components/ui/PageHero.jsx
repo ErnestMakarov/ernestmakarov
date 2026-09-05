@@ -12,507 +12,407 @@ const animationDelay = {
 function AnimatedStructure({ page }) {
   return (
     <div
-      className="relative h-full w-full"
+      className="page-hero-visual relative h-full w-full"
       style={{
-        "--hero-delay": animationDelay[page] || "0s",
+        "--page-delay": animationDelay[page] ?? "0s",
       }}
       aria-hidden="true"
     >
-      <div className="absolute left-1/2 top-1/2 h-[72%] w-[72%] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#0057FF]/[0.045] blur-3xl" />
-
-      <div className="page-hero-glow absolute left-[58%] top-[42%] h-32 w-32 rounded-full bg-[#0057FF]/[0.04] blur-2xl" />
+      <div className="absolute inset-[9%] rounded-full bg-[radial-gradient(circle,rgba(0,87,255,0.055)_0%,rgba(0,87,255,0)_68%)] blur-2xl" />
 
       <svg
         viewBox="0 0 640 480"
         fill="none"
         className="relative h-full w-full overflow-visible"
+        xmlns="http://www.w3.org/2000/svg"
       >
-        <defs>
-          <linearGradient
-            id="heroLineFade"
-            x1="30"
-            y1="240"
-            x2="610"
-            y2="240"
-          >
-            <stop stopColor="#111111" stopOpacity="0" />
-            <stop offset="0.18" stopColor="#111111" stopOpacity="0.11" />
-            <stop offset="0.82" stopColor="#111111" stopOpacity="0.11" />
-            <stop offset="1" stopColor="#111111" stopOpacity="0" />
-          </linearGradient>
-
-          <linearGradient
-            id="heroBlueFade"
-            x1="40"
-            y1="0"
-            x2="590"
-            y2="0"
-          >
-            <stop stopColor="#0057FF" stopOpacity="0" />
-            <stop offset="0.2" stopColor="#0057FF" stopOpacity="0.16" />
-            <stop offset="0.5" stopColor="#0057FF" stopOpacity="0.4" />
-            <stop offset="0.8" stopColor="#0057FF" stopOpacity="0.16" />
-            <stop offset="1" stopColor="#0057FF" stopOpacity="0" />
-          </linearGradient>
-
-          <filter
-            id="heroGlow"
-            x="-200%"
-            y="-200%"
-            width="400%"
-            height="400%"
-          >
-            <feGaussianBlur stdDeviation="5" result="blur" />
-
-            <feMerge>
-              <feMergeNode in="blur" />
-              <feMergeNode in="SourceGraphic" />
-            </feMerge>
-          </filter>
-        </defs>
-
         <g className="page-hero-drift-a">
           <path
-            d="M42 342H174V226H334V102H494"
-            stroke="url(#heroLineFade)"
-            strokeWidth="1"
+            d="M56 337H235V247H370V150H548"
+            className="page-hero-line"
           />
-
           <path
-            d="M174 226V400H404V282H598"
-            stroke="url(#heroLineFade)"
-            strokeWidth="1"
+            d="M235 247V110"
+            className="page-hero-line"
           />
-
           <path
-            d="M334 102V282H486V42"
-            stroke="url(#heroLineFade)"
-            strokeWidth="1"
+            d="M370 150V50"
+            className="page-hero-line"
           />
-
           <path
-            d="M404 282V430H564"
-            stroke="url(#heroLineFade)"
-            strokeWidth="1"
+            d="M548 150V66"
+            className="page-hero-line"
           />
-
           <path
-            d="M96 148H252V78H414"
-            stroke="url(#heroLineFade)"
-            strokeWidth="1"
-          />
-
-          <path
-            d="M252 78V188H556"
-            stroke="url(#heroLineFade)"
-            strokeWidth="1"
+            d="M548 150H614"
+            className="page-hero-line"
           />
         </g>
 
         <g className="page-hero-drift-b">
           <path
-            d="M24 420H126V366H276V246"
-            stroke="url(#heroLineFade)"
-            strokeWidth="1"
+            d="M153 425V344H405V271H533"
+            className="page-hero-line"
           />
-
           <path
-            d="M106 54V132H214V210"
-            stroke="url(#heroLineFade)"
-            strokeWidth="1"
+            d="M405 271V193"
+            className="page-hero-line"
           />
-
           <path
-            d="M602 66H530V146H438V244H612"
-            stroke="url(#heroLineFade)"
-            strokeWidth="1"
+            d="M533 271V386"
+            className="page-hero-line"
           />
-
           <path
-            d="M486 188V354H610"
-            stroke="url(#heroLineFade)"
-            strokeWidth="1"
+            d="M533 386H613"
+            className="page-hero-line"
           />
-
           <path
-            d="M72 286H126V190H174"
-            stroke="url(#heroLineFade)"
-            strokeWidth="1"
+            d="M290 344V432"
+            className="page-hero-line"
           />
         </g>
 
         <g className="page-hero-drift-c">
           <path
-            d="M278 34V78"
-            stroke="#111111"
-            strokeOpacity="0.08"
-            strokeWidth="1"
+            d="M84 184H178V104H306"
+            className="page-hero-line"
           />
-
           <path
-            d="M334 428V462"
-            stroke="#111111"
-            strokeOpacity="0.08"
-            strokeWidth="1"
+            d="M178 184V278"
+            className="page-hero-line"
           />
-
           <path
-            d="M556 188V234"
-            stroke="#111111"
-            strokeOpacity="0.08"
-            strokeWidth="1"
+            d="M306 104V42"
+            className="page-hero-line"
           />
-
           <path
-            d="M126 342V386"
-            stroke="#111111"
-            strokeOpacity="0.08"
-            strokeWidth="1"
+            d="M458 90H592"
+            className="page-hero-line"
           />
-
           <path
-            d="M438 244H486"
-            stroke="#111111"
-            strokeOpacity="0.08"
-            strokeWidth="1"
+            d="M522 90V14"
+            className="page-hero-line"
           />
         </g>
 
         <path
-          d="M42 342H174V226H334V102H494"
-          stroke="url(#heroBlueFade)"
-          strokeWidth="1.2"
-          className="page-hero-dash"
+          d="M56 337H235V247H370V150H548"
+          className="page-hero-flow page-hero-flow-a"
         />
 
         <path
-          d="M174 400H404V282H598"
-          stroke="url(#heroBlueFade)"
-          strokeWidth="1.2"
-          className="page-hero-dash page-hero-dash-delayed"
+          d="M153 425V344H405V271H533V386H613"
+          className="page-hero-flow page-hero-flow-b"
         />
 
         <path
-          d="M96 148H252V78H414"
-          stroke="url(#heroBlueFade)"
-          strokeWidth="1"
-          className="page-hero-dash page-hero-dash-slow"
+          d="M84 184H178V104H306"
+          className="page-hero-flow page-hero-flow-c"
         />
 
         <path
-          d="M602 66H530V146H438V244H612"
-          stroke="url(#heroBlueFade)"
-          strokeWidth="1"
-          className="page-hero-dash page-hero-dash-reverse"
+          d="M458 90H592"
+          className="page-hero-flow page-hero-flow-d"
         />
 
-        <g fill="#0057FF">
-          <rect
-            x="169"
-            y="221"
-            width="10"
-            height="10"
-            rx="1"
-            className="page-hero-pulse-a"
-          />
+        <g className="page-hero-points">
+          <rect x="230" y="242" width="10" height="10" rx="1" />
+          <rect x="365" y="145" width="10" height="10" rx="1" />
+          <rect x="543" y="145" width="10" height="10" rx="1" />
 
-          <rect
-            x="329"
-            y="97"
-            width="10"
-            height="10"
-            rx="1"
-            className="page-hero-pulse-b"
-          />
+          <rect x="148" y="339" width="10" height="10" rx="1" />
+          <rect x="400" y="266" width="10" height="10" rx="1" />
+          <rect x="528" y="266" width="10" height="10" rx="1" />
+          <rect x="528" y="381" width="10" height="10" rx="1" />
 
-          <rect
-            x="399"
-            y="277"
-            width="10"
-            height="10"
-            rx="1"
-            className="page-hero-pulse-c"
-          />
+          <rect x="79" y="179" width="10" height="10" rx="1" />
+          <rect x="173" y="99" width="10" height="10" rx="1" />
+          <rect x="301" y="99" width="10" height="10" rx="1" />
 
-          <rect
-            x="482"
-            y="184"
-            width="8"
-            height="8"
-            rx="1"
-            className="page-hero-pulse-b"
-          />
+          <rect x="453" y="85" width="10" height="10" rx="1" />
+          <rect x="587" y="85" width="10" height="10" rx="1" />
+        </g>
 
-          <rect
-            x="401"
-            y="427"
-            width="7"
-            height="7"
-            rx="1"
-            opacity="0.75"
-          />
+        <g className="page-hero-small-points">
+          <circle cx="56" cy="337" r="3.5" />
+          <circle cx="235" cy="110" r="3.5" />
+          <circle cx="370" cy="50" r="3.5" />
+          <circle cx="614" cy="150" r="3.5" />
 
-          <rect
-            x="560"
-            y="427"
-            width="7"
-            height="7"
-            rx="1"
-            opacity="0.65"
-          />
+          <circle cx="153" cy="425" r="3.5" />
+          <circle cx="290" cy="344" r="3.5" />
+          <circle cx="290" cy="432" r="3.5" />
+          <circle cx="405" cy="193" r="3.5" />
+          <circle cx="613" cy="386" r="3.5" />
 
-          <rect
-            x="93"
-            y="145"
-            width="7"
-            height="7"
-            rx="1"
-            opacity="0.65"
-          />
+          <circle cx="84" cy="184" r="3.5" />
+          <circle cx="178" cy="278" r="3.5" />
+          <circle cx="306" cy="42" r="3.5" />
 
-          <rect
-            x="249"
-            y="75"
-            width="7"
-            height="7"
-            rx="1"
-            opacity="0.7"
-          />
-
-          <rect
-            x="527"
-            y="143"
-            width="7"
-            height="7"
-            rx="1"
-            opacity="0.6"
-          />
-
-          <circle cx="126" cy="366" r="3" opacity="0.6" />
-
-          <circle cx="438" cy="244" r="3" opacity="0.65" />
-
-          <circle cx="556" cy="188" r="3" opacity="0.55" />
+          <circle cx="458" cy="90" r="3.5" />
+          <circle cx="522" cy="14" r="3.5" />
         </g>
 
         <circle
+          cx="56"
+          cy="337"
+          r="5"
+          className="page-hero-runner page-hero-runner-one"
+        />
+
+        <circle
+          cx="153"
+          cy="425"
           r="4"
-          fill="#0057FF"
-          filter="url(#heroGlow)"
-          className="page-hero-motion"
-        >
-          <animateMotion
-            dur="15s"
-            begin="0s"
-            repeatCount="indefinite"
-            path="M42 342H174V226H334V102H494"
-          />
-        </circle>
+          className="page-hero-runner page-hero-runner-two"
+        />
 
         <circle
+          cx="84"
+          cy="184"
+          r="4"
+          className="page-hero-runner page-hero-runner-three"
+        />
+
+        <circle
+          cx="458"
+          cy="90"
           r="3.5"
-          fill="#0057FF"
-          filter="url(#heroGlow)"
-          className="page-hero-motion"
-        >
-          <animateMotion
-            dur="19s"
-            begin="-7s"
-            repeatCount="indefinite"
-            path="M174 400H404V282H598"
-          />
-        </circle>
-
-        <circle
-          r="3"
-          fill="#0057FF"
-          className="page-hero-motion"
-          opacity="0.85"
-        >
-          <animateMotion
-            dur="23s"
-            begin="-12s"
-            repeatCount="indefinite"
-            path="M96 148H252V78H414"
-          />
-        </circle>
-
-        <circle
-          r="3"
-          fill="#0057FF"
-          className="page-hero-motion"
-          opacity="0.75"
-        >
-          <animateMotion
-            dur="17s"
-            begin="-5s"
-            repeatCount="indefinite"
-            path="M404 282V430H564"
-          />
-        </circle>
-
-        <circle
-          r="3.5"
-          fill="#0057FF"
-          filter="url(#heroGlow)"
-          className="page-hero-motion"
-          opacity="0.8"
-        >
-          <animateMotion
-            dur="21s"
-            begin="-10s"
-            repeatCount="indefinite"
-            path="M602 66H530V146H438V244H612"
-          />
-        </circle>
-
-        <circle
-          r="2.5"
-          fill="#0057FF"
-          className="page-hero-motion"
-          opacity="0.7"
-        >
-          <animateMotion
-            dur="13s"
-            begin="-3s"
-            repeatCount="indefinite"
-            path="M24 420H126V366H276V246"
-          />
-        </circle>
+          className="page-hero-runner page-hero-runner-four"
+        />
 
         <rect
-          x="-4"
-          y="-4"
-          width="8"
-          height="8"
+          x="230"
+          y="242"
+          width="10"
+          height="10"
           rx="1"
-          fill="#0057FF"
-          filter="url(#heroGlow)"
-          className="page-hero-motion"
-        >
-          <animateMotion
-            dur="26s"
-            begin="-14s"
-            repeatCount="indefinite"
-            path="M106 54V132H214V210"
-          />
-        </rect>
+          className="page-hero-runner page-hero-runner-five"
+        />
 
         <rect
-          x="-3"
-          y="-3"
-          width="6"
-          height="6"
+          x="400"
+          y="266"
+          width="9"
+          height="9"
           rx="1"
-          fill="#0057FF"
-          className="page-hero-motion"
-          opacity="0.75"
-        >
-          <animateMotion
-            dur="18s"
-            begin="-8s"
-            repeatCount="indefinite"
-            path="M486 188V354H610"
-          />
-        </rect>
+          className="page-hero-runner page-hero-runner-six"
+        />
 
-        <g
-          className="page-hero-coordinate"
-          fill="#111111"
-          fillOpacity="0.25"
-          fontFamily="Inter, sans-serif"
-          fontSize="9"
-          letterSpacing="0.08em"
-        >
-          <text x="502" y="192">
+        <g className="page-hero-coordinates">
+          <text x="558" y="142">
             X: 120
           </text>
-
-          <text x="570" y="436">
+          <text x="546" y="405">
             Y: 280
+          </text>
+          <text x="318" y="94">
+            004
           </text>
         </g>
       </svg>
 
       <style>{`
+        .page-hero-line {
+          stroke: rgba(29, 43, 61, 0.12);
+          stroke-width: 1;
+          vector-effect: non-scaling-stroke;
+        }
+
+        .page-hero-flow {
+          fill: none;
+          stroke: rgba(0, 87, 255, 0.32);
+          stroke-width: 1.15;
+          stroke-linecap: round;
+          stroke-dasharray: 18 54;
+          vector-effect: non-scaling-stroke;
+        }
+
+        .page-hero-flow-a {
+          animation: pageHeroDash 17s linear infinite;
+          animation-delay: var(--page-delay);
+        }
+
+        .page-hero-flow-b {
+          animation: pageHeroDashReverse 22s linear infinite;
+          animation-delay: var(--page-delay);
+        }
+
+        .page-hero-flow-c {
+          animation: pageHeroDash 15s linear infinite;
+          animation-delay: var(--page-delay);
+        }
+
+        .page-hero-flow-d {
+          animation: pageHeroDashReverse 12s linear infinite;
+          animation-delay: var(--page-delay);
+        }
+
+        .page-hero-drift-a {
+          transform-origin: center;
+          animation: pageHeroDriftA 14s ease-in-out infinite alternate;
+          animation-delay: var(--page-delay);
+        }
+
+        .page-hero-drift-b {
+          transform-origin: center;
+          animation: pageHeroDriftB 18s ease-in-out infinite alternate;
+          animation-delay: var(--page-delay);
+        }
+
+        .page-hero-drift-c {
+          transform-origin: center;
+          animation: pageHeroDriftC 21s ease-in-out infinite alternate;
+          animation-delay: var(--page-delay);
+        }
+
+        .page-hero-points {
+          fill: #0057ff;
+        }
+
+        .page-hero-points rect {
+          transform-box: fill-box;
+          transform-origin: center;
+          animation: pageHeroPulse 4.8s ease-in-out infinite;
+          animation-delay: var(--page-delay);
+        }
+
+        .page-hero-points rect:nth-child(2n) {
+          animation-delay: calc(var(--page-delay) - 1.6s);
+        }
+
+        .page-hero-points rect:nth-child(3n) {
+          animation-delay: calc(var(--page-delay) - 3.2s);
+        }
+
+        .page-hero-small-points {
+          fill: #0057ff;
+          opacity: 0.78;
+        }
+
+        .page-hero-small-points circle {
+          animation: pageHeroGlow 3.8s ease-in-out infinite;
+          animation-delay: var(--page-delay);
+        }
+
+        .page-hero-small-points circle:nth-child(2n) {
+          animation-delay: calc(var(--page-delay) - 1.3s);
+        }
+
+        .page-hero-small-points circle:nth-child(3n) {
+          animation-delay: calc(var(--page-delay) - 2.6s);
+        }
+
+        .page-hero-runner {
+          fill: #0057ff;
+          transform-box: fill-box;
+          transform-origin: center;
+          filter: drop-shadow(0 0 5px rgba(0, 87, 255, 0.5));
+          will-change: transform;
+        }
+
+        .page-hero-runner-one {
+          animation: pageHeroRunnerOne 13s linear infinite;
+          animation-delay: var(--page-delay);
+        }
+
+        .page-hero-runner-two {
+          animation: pageHeroRunnerTwo 16s linear infinite;
+          animation-delay: calc(var(--page-delay) - 5s);
+        }
+
+        .page-hero-runner-three {
+          animation: pageHeroRunnerThree 11s linear infinite;
+          animation-delay: calc(var(--page-delay) - 8s);
+        }
+
+        .page-hero-runner-four {
+          animation: pageHeroRunnerFour 8s ease-in-out infinite alternate;
+          animation-delay: var(--page-delay);
+        }
+
+        .page-hero-runner-five {
+          animation: pageHeroRunnerFive 10s ease-in-out infinite alternate;
+          animation-delay: calc(var(--page-delay) - 3s);
+        }
+
+        .page-hero-runner-six {
+          animation: pageHeroRunnerSix 12s ease-in-out infinite alternate;
+          animation-delay: calc(var(--page-delay) - 6s);
+        }
+
+        .page-hero-coordinates {
+          fill: rgba(48, 57, 68, 0.32);
+          font-family: Inter, sans-serif;
+          font-size: 9px;
+          letter-spacing: 0.08em;
+          animation: pageHeroCoordinate 6s ease-in-out infinite;
+          animation-delay: var(--page-delay);
+        }
+
+        @keyframes pageHeroDash {
+          from {
+            stroke-dashoffset: 0;
+          }
+          to {
+            stroke-dashoffset: -288;
+          }
+        }
+
+        @keyframes pageHeroDashReverse {
+          from {
+            stroke-dashoffset: -288;
+          }
+          to {
+            stroke-dashoffset: 0;
+          }
+        }
+
         @keyframes pageHeroDriftA {
           0% {
-            transform: translate3d(-8px, 5px, 0);
+            transform: translate3d(-5px, 3px, 0);
           }
-
           50% {
-            transform: translate3d(10px, -7px, 0);
+            transform: translate3d(4px, -3px, 0);
           }
-
           100% {
-            transform: translate3d(-3px, 9px, 0);
+            transform: translate3d(8px, 5px, 0);
           }
         }
 
         @keyframes pageHeroDriftB {
           0% {
-            transform: translate3d(7px, -5px, 0);
+            transform: translate3d(4px, -4px, 0);
           }
-
           50% {
-            transform: translate3d(-9px, 8px, 0);
+            transform: translate3d(-5px, 4px, 0);
           }
-
           100% {
-            transform: translate3d(5px, -3px, 0);
+            transform: translate3d(-8px, -2px, 0);
           }
         }
 
         @keyframes pageHeroDriftC {
           0% {
-            transform: translate3d(0, -5px, 0);
-            opacity: 0.5;
+            transform: translate3d(-3px, -2px, 0);
           }
-
           50% {
-            transform: translate3d(5px, 5px, 0);
-            opacity: 1;
+            transform: translate3d(6px, 5px, 0);
           }
-
           100% {
-            transform: translate3d(-4px, -2px, 0);
-            opacity: 0.6;
-          }
-        }
-
-        @keyframes pageHeroDash {
-          to {
-            stroke-dashoffset: -88;
-          }
-        }
-
-        @keyframes pageHeroDashReverse {
-          to {
-            stroke-dashoffset: 88;
+            transform: translate3d(2px, -6px, 0);
           }
         }
 
         @keyframes pageHeroPulse {
           0%,
           100% {
-            opacity: 0.4;
+            opacity: 0.58;
             transform: scale(0.78);
           }
-
           50% {
             opacity: 1;
-            transform: scale(1.3);
-          }
-        }
-
-        @keyframes pageHeroCoordinate {
-          0%,
-          100% {
-            opacity: 0.3;
-          }
-
-          50% {
-            opacity: 0.75;
+            transform: scale(1.18);
           }
         }
 
@@ -520,89 +420,115 @@ function AnimatedStructure({ page }) {
           0%,
           100% {
             opacity: 0.35;
-            transform: translate3d(-8px, 6px, 0) scale(0.9);
           }
-
           50% {
-            opacity: 0.75;
-            transform: translate3d(10px, -8px, 0) scale(1.12);
+            opacity: 1;
           }
         }
 
-        .page-hero-drift-a {
-          animation: pageHeroDriftA 18s ease-in-out infinite;
-          animation-delay: var(--hero-delay);
+        @keyframes pageHeroCoordinate {
+          0%,
+          100% {
+            opacity: 0.25;
+          }
+          50% {
+            opacity: 0.72;
+          }
         }
 
-        .page-hero-drift-b {
-          animation: pageHeroDriftB 24s ease-in-out infinite;
-          animation-delay: calc(var(--hero-delay) - 4s);
+        @keyframes pageHeroRunnerOne {
+          0% {
+            transform: translate(0, 0);
+          }
+          24% {
+            transform: translate(179px, 0);
+          }
+          43% {
+            transform: translate(179px, -90px);
+          }
+          66% {
+            transform: translate(314px, -90px);
+          }
+          82% {
+            transform: translate(314px, -187px);
+          }
+          100% {
+            transform: translate(492px, -187px);
+          }
         }
 
-        .page-hero-drift-c {
-          animation: pageHeroDriftC 20s ease-in-out infinite;
-          animation-delay: calc(var(--hero-delay) - 7s);
+        @keyframes pageHeroRunnerTwo {
+          0% {
+            transform: translate(0, 0);
+          }
+          18% {
+            transform: translate(0, -81px);
+          }
+          51% {
+            transform: translate(252px, -81px);
+          }
+          68% {
+            transform: translate(252px, -154px);
+          }
+          84% {
+            transform: translate(380px, -154px);
+          }
+          100% {
+            transform: translate(380px, -39px);
+          }
         }
 
-        .page-hero-dash {
-          stroke-dasharray: 4 18;
-          animation: pageHeroDash 14s linear infinite;
+        @keyframes pageHeroRunnerThree {
+          0% {
+            transform: translate(0, 0);
+          }
+          34% {
+            transform: translate(94px, 0);
+          }
+          67% {
+            transform: translate(94px, -80px);
+          }
+          100% {
+            transform: translate(222px, -80px);
+          }
         }
 
-        .page-hero-dash-delayed {
-          animation-delay: -7s;
+        @keyframes pageHeroRunnerFour {
+          0% {
+            transform: translate(0, 0);
+          }
+          100% {
+            transform: translate(134px, 0);
+          }
         }
 
-        .page-hero-dash-slow {
-          animation-duration: 20s;
-          animation-delay: -11s;
+        @keyframes pageHeroRunnerFive {
+          0% {
+            transform: translate(0, 0) scale(0.75);
+          }
+          45% {
+            transform: translate(135px, 0) scale(1);
+          }
+          100% {
+            transform: translate(135px, -97px) scale(0.75);
+          }
         }
 
-        .page-hero-dash-reverse {
-          animation-name: pageHeroDashReverse;
-          animation-duration: 18s;
-          animation-delay: -6s;
-        }
-
-        .page-hero-pulse-a,
-        .page-hero-pulse-b,
-        .page-hero-pulse-c {
-          transform-box: fill-box;
-          transform-origin: center;
-          animation: pageHeroPulse 4.8s ease-in-out infinite;
-        }
-
-        .page-hero-pulse-b {
-          animation-delay: -1.6s;
-        }
-
-        .page-hero-pulse-c {
-          animation-delay: -3.2s;
-        }
-
-        .page-hero-coordinate {
-          animation: pageHeroCoordinate 6s ease-in-out infinite;
-        }
-
-        .page-hero-glow {
-          animation: pageHeroGlow 10s ease-in-out infinite;
+        @keyframes pageHeroRunnerSix {
+          0% {
+            transform: translate(0, 0) rotate(0deg);
+          }
+          50% {
+            transform: translate(128px, 0) rotate(90deg);
+          }
+          100% {
+            transform: translate(128px, 115px) rotate(180deg);
+          }
         }
 
         @media (prefers-reduced-motion: reduce) {
-          .page-hero-drift-a,
-          .page-hero-drift-b,
-          .page-hero-drift-c,
-          .page-hero-dash,
-          .page-hero-pulse-a,
-          .page-hero-pulse-b,
-          .page-hero-pulse-c,
-          .page-hero-coordinate,
-          .page-hero-glow {
-            animation: none;
-          }
-
-          .page-hero-motion {
-            display: none;
+          .page-hero-visual * {
+            animation-duration: 28s !important;
           }
         }
       `}</style>
@@ -614,31 +540,33 @@ function PageHero({ page }) {
   const { t } = useTranslation("common");
   const location = useLocation();
 
-  const title = t(`pageHeroes.${page}.title`, {
+  const translatedTitle = t(`pageHeroes.${page}.title`, {
     returnObjects: true,
   });
 
-  const titleLines = Array.isArray(title) ? title : [title];
+  const titleLines = Array.isArray(translatedTitle)
+    ? translatedTitle
+    : [translatedTitle];
 
   return (
-    <section className="relative overflow-hidden border-b border-black/[0.07] bg-[#F6F5F2]">
-      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_80%_44%,rgba(255,255,255,0.96)_0%,rgba(246,245,242,0)_56%)]" />
+    <section className="relative overflow-hidden border-b border-black/[0.06]">
+      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_78%_44%,rgba(255,255,255,0.98)_0%,rgba(246,245,242,0)_58%)]" />
 
-      <div className="relative mx-auto grid min-h-[calc(100svh-72px)] w-full max-w-[1600px] grid-cols-1 px-5 py-16 sm:px-8 sm:py-20 lg:grid-cols-[58%_42%] lg:items-center lg:px-9 lg:py-12">
-        <div className="relative z-10 flex flex-col items-start lg:pr-10">
-          <div className="mb-8 flex items-center gap-4 sm:mb-10">
-            <span className="text-[12px] font-semibold tracking-[0.16em] text-[#0057FF] sm:text-[13px]">
+      <div className="relative mx-auto grid min-h-[calc(100svh-72px)] w-full max-w-[1600px] px-5 py-12 sm:px-8 sm:py-16 lg:grid-cols-[58%_42%] lg:items-center lg:px-9 lg:py-20">
+        <div className="relative z-10 max-w-[850px]">
+          <div className="mb-8 flex items-center gap-5 sm:mb-10">
+            <span className="text-[13px] font-semibold tracking-[0.15em] text-[#0057FF]">
               {t(`pageHeroes.${page}.number`)}
             </span>
 
-            <span className="text-[11px] text-black/25">/</span>
+            <span className="h-px w-5 bg-black/20" />
 
-            <span className="text-[11px] font-semibold uppercase tracking-[0.24em] text-[#666666] sm:text-[12px]">
+            <span className="text-[11px] font-semibold uppercase tracking-[0.28em] text-[#777] sm:text-[12px]">
               {t(`pageHeroes.${page}.eyebrow`)}
             </span>
           </div>
 
-          <h1 className="flex max-w-[960px] flex-col gap-[0.08em] font-['Oswald'] text-[clamp(52px,13vw,72px)] font-medium uppercase leading-[1.03] tracking-[-0.035em] text-[#111111] sm:text-[clamp(68px,9vw,88px)] lg:text-[clamp(78px,6vw,112px)]">
+          <h1 className="font-['Oswald'] text-[clamp(52px,12vw,76px)] font-medium leading-[1.03] tracking-[-0.035em] text-[#111] sm:text-[clamp(68px,9vw,100px)] lg:text-[clamp(76px,6.2vw,112px)]">
             {titleLines.map((line, index) => (
               <span key={`${line}-${index}`} className="block">
                 {line}
@@ -646,14 +574,14 @@ function PageHero({ page }) {
             ))}
           </h1>
 
-          <p className="mt-8 max-w-[610px] text-[15px] leading-[1.7] text-[#5F5F5F] sm:mt-10 sm:text-[17px] lg:text-[18px]">
+          <p className="mt-7 max-w-[610px] text-[16px] leading-[1.65] text-[#575757] sm:mt-9 sm:text-[18px] lg:text-[19px]">
             {t(`pageHeroes.${page}.description`)}
           </p>
         </div>
 
-        <div className="relative mt-10 h-[270px] sm:h-[350px] lg:mt-0 lg:h-[580px]">
+        <div className="relative mt-8 h-[270px] sm:mt-10 sm:h-[350px] lg:mt-0 lg:h-[580px]">
           <AnimatedStructure
-            key={`${location.pathname}-${page}`}
+            key={`${location.key}-${location.pathname}-${page}`}
             page={page}
           />
         </div>
