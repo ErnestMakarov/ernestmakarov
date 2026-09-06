@@ -69,13 +69,14 @@ function HomeContact() {
 
       <div className="relative mx-auto grid w-full max-w-[1460px] gap-16 px-5 py-20 sm:px-8 sm:py-28 lg:min-h-[900px] lg:grid-cols-[0.93fr_1.07fr] lg:items-center lg:gap-12 lg:px-9 lg:py-32 xl:gap-20">
         <div
+          data-aos="fade-up"
           className={`relative z-20 min-w-0 transition-[opacity,transform] duration-1000 ease-out ${
             isVisible
               ? "translate-y-0 opacity-100"
               : "translate-y-8 opacity-0"
           }`}
         >
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-4" >
             <span className="text-[12px] font-semibold tracking-[0.16em] text-[#0768F8]">
               03
             </span>

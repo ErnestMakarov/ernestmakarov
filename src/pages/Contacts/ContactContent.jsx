@@ -10,8 +10,8 @@ const contactMethods = [
   },
   {
     id: "telegram",
-    href: "https://t.me/ernestmakarov",
-    value: "@ernestmakarov",
+    href: "https://t.me/ernestweb",
+    value: "@ernestweb",
     external: true,
   },
   {
@@ -22,8 +22,8 @@ const contactMethods = [
   },
   {
     id: "instagram",
-    href: "https://instagram.com/ernestmakarov.ee",
-    value: "@ernestmakarov.ee",
+    href: "https://instagram.com/ern.e.st",
+    value: "@ern.e.st",
     external: true,
   },
   {

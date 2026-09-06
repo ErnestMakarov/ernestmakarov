@@ -146,6 +146,7 @@ function ServiceCard({ service }) {
 
   return (
     <article
+      data-aos="fade-up"
       className={`group flex min-h-[590px] flex-col border p-6 transition-all duration-500 sm:p-8 lg:min-h-[640px] lg:p-10 ${
         featured
           ? "border-[#102B50] bg-[#071426] text-white shadow-[0_28px_70px_rgba(4,15,31,0.2)]"

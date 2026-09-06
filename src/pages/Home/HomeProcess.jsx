@@ -38,7 +38,7 @@ function HomeProcess() {
           02&nbsp;&nbsp;/&nbsp;&nbsp;{t("process.eyebrow")}
         </p>
 
-        <div className="max-w-[1050px]">
+        <div className="max-w-[1050px]"  data-aos="fade-up">
             <h2 className="font-['Oswald'] text-[clamp(46px,12vw,64px)] font-medium leading-[1.08] tracking-[-0.025em] text-[#111] sm:text-[clamp(60px,7vw,82px)] lg:text-[clamp(70px,4.8vw,92px)]">
                 {titleLines.map((line, index) => (
                 <span key={`${line}-${index}`} className="block">
