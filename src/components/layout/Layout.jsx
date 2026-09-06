@@ -4,7 +4,7 @@ import Header from "./Header";
 import Footer from "./Footer";
 import ScrollToTop from "../ui/ScrollToTop";
 import AosController from "../ui/AosController";
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from "@vercel/analytics/react";
 
 function Layout() {
   return (
