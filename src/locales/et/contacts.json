@@ -1,4 +1,8 @@
 {
+    "seo": {
+      "title": "Arutame teie veebiprojekti — Ernest Makarov",
+      "description": "Kirjeldage oma projekti ja saate personaalse vastuse. Võtke ühendust e-posti, Telegrami, WhatsAppi, Instagrami või telefoni kaudu."
+  },
   "phone": {
     "online": "veebis",
     "step": "Samm {{current}} / 4",

@@ -1,4 +1,8 @@
 {
+    "seo": {
+      "title": "Veebiarendus ja hinnad Eestis — Ernest Makarov",
+      "description": "Maandumislehed, mitmelehelised veebid, e-poed, arendus valmis kujunduse põhjal ning olemasolevate veebilehtede täiustamine."
+  },
   "labels": {
     "price": "Hind",
     "time": "Valmimisaeg"

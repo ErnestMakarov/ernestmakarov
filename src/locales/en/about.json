@@ -1,4 +1,8 @@
 {
+    "seo": {
+      "title": "About Frontend Developer Ernest Makarov",
+      "description": "Frontend developer based in Tallinn, creating business websites with React, JavaScript, Node.js and Tailwind CSS."
+  },
   "intro": {
     "eyebrow": "Behind the projects",
     "name": "Ernest Makarov · Frontend developer",

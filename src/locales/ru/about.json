@@ -1,4 +1,8 @@
 {
+    "seo": {
+      "title": "Обо мне — frontend-разработчик Ernest Makarov",
+      "description": "Frontend-разработчик из Таллина. Проектирую и создаю сайты для бизнеса на React, JavaScript, Node.js и Tailwind CSS."
+  },
   "intro": {
     "eyebrow": "Кто стоит за проектом",
     "name": "Ernest Makarov · Frontend-разработчик",

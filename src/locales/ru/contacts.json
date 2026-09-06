@@ -1,4 +1,8 @@
 {
+    "seo": {
+      "title": "Обсудить создание сайта — Ernest Makarov",
+      "description": "Расскажите о своём проекте и получите ответ лично от разработчика. Email, Telegram, WhatsApp, Instagram или телефон."
+  },
   "phone": {
     "online": "онлайн",
     "step": "Шаг {{current}} из 4",

@@ -1,4 +1,8 @@
-{
+{ 
+    "seo": {
+      "title": "Web Developer in Tallinn — Ernest Makarov",
+      "description": "Fast, expressive websites for businesses in Estonia: landing pages, multi-page websites and online stores designed to drive growth."
+  },
   "hero": {
     "eyebrow": "WEB developer · Tallinn",
     "title": [

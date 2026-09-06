@@ -1,4 +1,8 @@
 {
+    "seo": {
+      "title": "Minust — frontend-arendaja Ernest Makarov",
+      "description": "Tallinnas tegutsev frontend-arendaja, kes loob ettevõtetele veebilehti Reacti, JavaScripti, Node.js-i ja Tailwind CSS-iga."
+  },
   "intro": {
     "eyebrow": "Projektide taga",
     "name": "Ernest Makarov · Frontend-arendaja",

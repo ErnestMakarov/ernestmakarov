@@ -1,17 +1,23 @@
-import HomeHero from "./HomeHero.jsx";
-import HomeProjects from "./HomeProjects.jsx";
-import HomeProcess from "./HomeProcess.jsx";
-import HomeContact from "./HomeContact.jsx";
+import SEO from "../../components/ui/SEO.jsx";
 
-function HomePage() {
+import HomeContact from "./HomeContact.jsx";
+import HomeHero from "./HomeHero.jsx";
+import HomeProcess from "./HomeProcess.jsx";
+import HomeProjects from "./HomeProjects.jsx";
+
+function Home() {
   return (
-    <main>
-      <HomeHero />
-      <HomeProjects />
-      <HomeProcess />
-      <HomeContact />
-    </main>
+    <>
+      <SEO namespace="home" path="/" />
+
+      <main>
+        <HomeHero />
+        <HomeProjects />
+        <HomeProcess />
+        <HomeContact />
+      </main>
+    </>
   );
 }
 
-export default HomePage;
+export default Home;

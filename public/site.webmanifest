@@ -1,0 +1,25 @@
+{
+  "name": "Ernest Makarov — Web Developer",
+  "short_name": "Ernest Makarov",
+  "description": "Web design and development for businesses in Estonia.",
+  "lang": "et",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#F6F5F2",
+  "theme_color": "#071426",
+  "icons": [
+    {
+      "src": "/web-app-manifest-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/web-app-manifest-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

@@ -1,12 +1,18 @@
-import PageHero from "../../components/ui/PageHero";
-import ProcessContent from "./ProcessContent";
+import SEO from "../../components/ui/SEO.jsx";
+import PageHero from "../../components/ui/PageHero.jsx";
+
+import ProcessContent from "./ProcessContent.jsx";
 
 function Process() {
   return (
-    <main>
-      <PageHero page="process" />
-      <ProcessContent />
-    </main>
+    <>
+      <SEO namespace="process" path="/process" />
+
+      <main>
+        <PageHero page="process" />
+        <ProcessContent />
+      </main>
+    </>
   );
 }
 

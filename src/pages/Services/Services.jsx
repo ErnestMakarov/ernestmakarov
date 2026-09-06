@@ -1,12 +1,18 @@
-import PageHero from "../../components/ui/PageHero";
-import ServicesCatalog from "./ServicesCatalog";
+import SEO from "../../components/ui/SEO.jsx";
+import PageHero from "../../components/ui/PageHero.jsx";
+
+import ServicesCatalog from "./ServicesCatalog.jsx";
 
 function Services() {
   return (
-    <main>
-      <PageHero page="services" />
-      <ServicesCatalog />
-    </main>
+    <>
+      <SEO namespace="services" path="/services" />
+
+      <main>
+        <PageHero page="services" />
+        <ServicesCatalog />
+      </main>
+    </>
   );
 }
 
