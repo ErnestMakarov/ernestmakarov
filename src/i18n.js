@@ -26,6 +26,10 @@ import etServices from "./locales/et/services.json";
 import enServices from "./locales/en/services.json";
 import ruServices from "./locales/ru/services.json";
 
+import processRu from "./locales/ru/process.json";
+import processEn from "./locales/en/process.json";
+import processEt from "./locales/et/process.json";
+
 i18n
   .use(LanguageDetector)
   .use(initReactI18next)
@@ -36,6 +40,7 @@ i18n
         home: etHome,
         work: etWork,
         services: etServices,
+        process: processEt,
         about: etAbout,
         contacts: etContacts,
       },
@@ -44,6 +49,7 @@ i18n
         home: enHome,
         work: enWork,
         services: enServices,
+        process: processEn,
         about: enAbout,
         contacts: enContacts,
       },
@@ -52,6 +58,7 @@ i18n
         home: ruHome,
         work: ruWork,
         services: ruServices,
+        process: processRu,
         about: ruAbout,
         contacts: ruContacts,
       },
@@ -62,7 +69,7 @@ i18n
     lng: localStorage.getItem("language") || "et",
 
     defaultNS: "common",
-    ns: ["common", "home", "work", "services", "about", "contacts"],
+    ns: ["common", "home", "work", "services", "process", "about", "contacts"],
 
     interpolation: {
       escapeValue: false,

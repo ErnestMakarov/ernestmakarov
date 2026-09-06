@@ -1,0 +1,51 @@
+{
+  "eyebrow": "How we work",
+  "title": {
+    "first": "Four stages.",
+    "second": "Nothing unnecessary."
+  },
+  "description": "A clear process without chaos: you always know what is happening now and what comes next.",
+  "visualAlt": "Four layers representing the modern website creation process",
+  "steps": {
+    "discovery": {
+      "title": "Discovery",
+      "description": "We discuss the challenge, audience, business goals and the result the website should deliver."
+    },
+    "structure": {
+      "title": "Structure",
+      "description": "I organise the pages and build a clear user journey from the first screen to the desired action."
+    },
+    "creation": {
+      "title": "Design and development",
+      "description": "I create the visual system, adapt it to every device and turn the design into a working website."
+    },
+    "launch": {
+      "title": "Launch",
+      "description": "I check every detail, performance and form, connect the domain and deliver the finished project."
+    }
+  },
+  "cta": {
+    "status": "Available to discuss your project",
+    "note": "A short message is enough to begin — no lengthy brief required.",
+    "action": "Tell me about your project"
+  },
+  "questions": {
+    "eyebrow": "First conversation",
+    "title": {
+      "first": "First, we clarify",
+      "second": "what matters."
+    },
+    "description": "I do not start designing blindly. First, I ask a few questions that reveal the business, the customer and the website's real purpose.",
+    "duration": "Usually 20–30 minutes",
+    "items": {
+      "audience": "Who is your target audience and what genuinely matters to them?",
+      "clients": "How do new customers currently find you and make a decision?",
+      "difference": "What makes your business stronger or more distinctive than competitors?",
+      "action": "What is the main action a visitor should take on the website?",
+      "visual": "Which colours, mood and visual references feel right for your brand?",
+      "materials": "Which materials are already available and when is the result needed?"
+    },
+    "footer": "You do not need to prepare the answers in advance. We will work through every point together and define a clear direction.",
+    "action": "Start a conversation"
+  }
+}

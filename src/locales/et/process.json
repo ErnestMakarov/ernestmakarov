@@ -1,0 +1,51 @@
+{
+  "eyebrow": "Kuidas me töötame",
+  "title": {
+    "first": "Neli etappi.",
+    "second": "Ei midagi üleliigset."
+  },
+  "description": "Selge protsess ilma kaoseta: teate alati, mis parajasti toimub ja milline on järgmine samm.",
+  "visualAlt": "Neli kihti, mis kujutavad kaasaegse veebilehe loomise protsessi",
+  "steps": {
+    "discovery": {
+      "title": "Tutvumine",
+      "description": "Arutame ülesannet, sihtrühma, ärieesmärke ja tulemust, milleni veebileht peab viima."
+    },
+    "structure": {
+      "title": "Struktuur",
+      "description": "Panen paika lehtede loogika ja loon arusaadava kasutajatee esimesest vaatest soovitud tegevuseni."
+    },
+    "creation": {
+      "title": "Disain ja arendus",
+      "description": "Loon visuaalse süsteemi, kohandan selle kõigile seadmetele ja muudan disaini toimivaks veebileheks."
+    },
+    "launch": {
+      "title": "Avaldamine",
+      "description": "Kontrollin detaile, kiirust ja vorme, ühendan domeeni ning annan üle valmis projekti."
+    }
+  },
+  "cta": {
+    "status": "Olen valmis teie projekti arutama",
+    "note": "Alustamiseks piisab lühikesest sõnumist — pikka briifi pole vaja.",
+    "action": "Rääkige oma projektist"
+  },
+  "questions": {
+    "eyebrow": "Esimene vestlus",
+    "title": {
+      "first": "Kõigepealt selgitame",
+      "second": "välja olulise."
+    },
+    "description": "Ma ei alusta disainimist pimesi. Esmalt küsin mõned küsimused, mis aitavad mõista ettevõtet, klienti ja veebilehe tegelikku ülesannet.",
+    "duration": "Tavaliselt 20–30 minutit",
+    "items": {
+      "audience": "Kes on teie sihtrühm ja mis on nende jaoks päriselt oluline?",
+      "clients": "Kuidas uued kliendid teid praegu leiavad ja otsuse teevad?",
+      "difference": "Mis muudab teie ettevõtte konkurentidest tugevamaks või eristuvamaks?",
+      "action": "Millise peamise tegevuse peab külastaja veebilehel tegema?",
+      "visual": "Millised värvid, meeleolu ja visuaalsed näited teile sobivad?",
+      "materials": "Millised materjalid on juba olemas ja mis ajaks on tulemust vaja?"
+    },
+    "footer": "Vastuseid ei pea ette valmistama. Vaatame kõik punktid koos läbi ja paneme paika selge töösuuna.",
+    "action": "Alusta vestlust"
+  }
+}
