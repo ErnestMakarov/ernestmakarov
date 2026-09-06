@@ -16,7 +16,7 @@ function HomeHero() {
     <section className="relative overflow-hidden">
       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_76%_42%,rgba(255,255,255,0.96)_0%,rgba(246,245,242,0)_52%)]" />
 
-      <div className="relative mx-auto grid w-full max-w-[1600px] px-5 pb-16 pt-4 sm:px-8 sm:pt-8 lg:min-h-[calc(100svh-72px)] lg:grid-cols-[38%_62%] lg:items-center lg:px-9 lg:py-8">
+      <div data-aos="fade-up" className="relative mx-auto grid w-full max-w-[1600px] px-5 pb-16 pt-4 sm:px-8 sm:pt-8 lg:min-h-[calc(100svh-72px)] lg:grid-cols-[38%_62%] lg:items-center lg:px-9 lg:py-8">
         <div className="relative z-20 order-2 flex flex-col items-start pt-5 sm:pt-8 lg:order-1 lg:py-16 lg:pr-6">
           <p className="mb-4 text-[10px] font-medium uppercase tracking-[0.11em] text-[#555] sm:text-[11px] lg:mb-5 lg:text-[12px]">
             {t("hero.eyebrow")}

@@ -85,7 +85,7 @@ function HomeProjects() {
               01&nbsp;&nbsp;/&nbsp;&nbsp;{t("featuredWork.eyebrow")}
             </p>
 
-            <h2 className="font-['Oswald'] text-[clamp(48px,12vw,68px)] font-medium leading-[0.95] tracking-[-0.03em] text-[#111] sm:text-[clamp(64px,7vw,92px)] lg:text-[clamp(76px,5.7vw,108px)]">
+            <h2 data-aos="fade-up" className="font-['Oswald'] text-[clamp(48px,12vw,68px)] font-medium leading-[0.95] tracking-[-0.03em] text-[#111] sm:text-[clamp(64px,7vw,92px)] lg:text-[clamp(76px,5.7vw,108px)]">
               {titleLines.map((line, index) => (
                 <span key={`${line}-${index}`} className="block">
                   {line}
@@ -113,7 +113,7 @@ function HomeProjects() {
               aria-label={`${project.name}: ${t(project.categoryKey)}`}
               className="group block"
             >
-              <div className="relative aspect-[1182/1330] overflow-hidden border border-black/25 bg-[#EAE9E6]">
+              <div data-aos="fade-up" className="relative aspect-[1182/1330] overflow-hidden border border-black/25 bg-[#EAE9E6]">
                 <img
                   src={project.image}
                   alt={project.name}

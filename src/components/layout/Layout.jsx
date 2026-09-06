@@ -1,20 +1,20 @@
 import { Outlet } from "react-router";
 
-import Header from "./Header.jsx";
-import Footer from "./Footer.jsx";
-import ScrollToTop from "./ScrollToTop.jsx";
+import Header from "./Header";
+import Footer from "./Footer";
+import AosController from "../ui/AosController";
 
-export default function Layout() {
+function Layout() {
   return (
     <>
-      <ScrollToTop />
+      <AosController />
       <Header />
 
-      <main>
-        <Outlet />
-      </main>
+      <Outlet />
 
       <Footer />
     </>
   );
 }
+
+export default Layout;

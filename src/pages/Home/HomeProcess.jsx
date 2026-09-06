@@ -59,6 +59,7 @@ function HomeProcess() {
             <div className="pointer-events-none absolute left-1/2 top-1/2 h-[60%] w-[70%] -translate-x-1/2 -translate-y-1/2 rounded-full bg-white blur-3xl" />
 
             <img
+              data-aos="fade-right"
               src={processVisual}
               alt={t("process.imageAlt")}
               loading="lazy"
@@ -67,7 +68,7 @@ function HomeProcess() {
             />
           </div>
 
-          <div className="lg:pl-7">
+          <div className="lg:pl-7" data-aos="fade-left">
             <div className="border-t border-black/15">
               {processSteps.map((step, index) => (
                 <div
