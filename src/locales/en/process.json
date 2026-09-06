@@ -1,27 +1,44 @@
 {
   "eyebrow": "How we work",
+  "labels": {
+    "result": "Outcome"
+  },
   "title": {
-    "first": "Four stages.",
+    "first": "Six stages.",
     "second": "Nothing unnecessary."
   },
   "description": "A clear process without chaos: you always know what is happening now and what comes next.",
-  "visualAlt": "Four layers representing the modern website creation process",
+  "visualAlt": "Layers representing the modern website creation process",
   "steps": {
     "discovery": {
       "title": "Discovery",
-      "description": "We discuss the challenge, audience, business goals and the result the website should deliver."
+      "description": "We discuss the challenge, audience, business goals and the result the website should deliver.",
+      "result": "A clear objective and project direction"
     },
-    "structure": {
-      "title": "Structure",
-      "description": "I organise the pages and build a clear user journey from the first screen to the desired action."
+    "strategy": {
+      "title": "Strategy and structure",
+      "description": "I define priorities, organise the pages and build a clear user journey towards the desired action.",
+      "result": "A sitemap and clear user journey"
     },
-    "creation": {
-      "title": "Design and development",
-      "description": "I create the visual system, adapt it to every device and turn the design into a working website."
+    "design": {
+      "title": "Design",
+      "description": "I create the visual direction, interface and responsive screens that reflect the character of the business.",
+      "result": "Approved design for every screen"
+    },
+    "development": {
+      "title": "Development",
+      "description": "I turn the design into a fast responsive website and add animations, forms and the required functionality.",
+      "result": "A fully functional website"
+    },
+    "testing": {
+      "title": "Testing",
+      "description": "I check different devices, performance, links, forms and the complete user journey.",
+      "result": "A tested website ready to publish"
     },
     "launch": {
       "title": "Launch",
-      "description": "I check every detail, performance and form, connect the domain and deliver the finished project."
+      "description": "I connect the domain, configure deployment and deliver everything required for future use.",
+      "result": "The website published on your domain"
     }
   },
   "cta": {

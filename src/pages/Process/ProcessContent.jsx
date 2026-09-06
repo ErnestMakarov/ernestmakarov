@@ -3,7 +3,14 @@ import { useTranslation } from "react-i18next";
 
 import processVisual from "../../assets/images/home/home-process-visual.png";
 
-const steps = ["discovery", "structure", "creation", "launch"];
+const steps = [
+  "discovery",
+  "strategy",
+  "design",
+  "development",
+  "testing",
+  "launch",
+];
 const questions = [
   "audience",
   "clients",
@@ -50,6 +57,14 @@ function StepItem({ step, index }) {
         <p className="mt-3 max-w-[470px] text-[14px] leading-[1.65] text-[#6A6A6A] sm:text-[15px]">
           {t(`steps.${step}.description`)}
         </p>
+
+        <div className="mt-4 flex items-start gap-3">
+          <span className="mt-[6px] h-1.5 w-1.5 shrink-0 bg-[#0768F8]" />
+          <p className="text-[11px] font-medium uppercase leading-[1.55] tracking-[0.12em] text-[#8A8A8A] sm:text-[12px]">
+            <span className="text-[#555]">{t("labels.result")}:</span>{" "}
+            {t(`steps.${step}.result`)}
+          </p>
+        </div>
       </div>
     </li>
   );
@@ -81,29 +96,31 @@ function ProcessContent() {
 
   return (
     <>
-      <section className="bg-[#F6F5F2] px-5 py-20 sm:px-8 sm:py-28 lg:px-9 lg:py-36">
+      <section className="overflow-x-clip bg-[#F6F5F2] px-5 py-20 sm:px-8 sm:py-28 lg:px-9 lg:py-36">
         <div className="mx-auto w-full max-w-[1460px] border-t border-black/[0.16] pt-12 sm:pt-16 lg:pt-20">
           <div className="grid gap-14 lg:grid-cols-[54%_46%] lg:gap-8 xl:gap-14">
-            <div className="relative flex min-h-[420px] items-center justify-center sm:min-h-[590px] lg:sticky lg:top-24 lg:h-[760px] lg:self-start">
-              <div className="pointer-events-none absolute inset-[10%] rounded-full bg-[radial-gradient(circle,rgba(0,87,255,0.09)_0%,rgba(0,87,255,0)_68%)] blur-3xl" />
+            <div className="relative min-w-0 sm:min-h-[590px] lg:sticky lg:top-24 lg:h-[calc(100svh-120px)] lg:min-h-[650px] lg:max-h-[820px] lg:self-start">
+              <div className="relative flex h-[440px] w-full min-w-0 items-center justify-center overflow-x-clip sm:h-[590px] lg:h-full">
+                <div className="pointer-events-none absolute inset-[10%] rounded-full bg-[radial-gradient(circle,rgba(0,87,255,0.09)_0%,rgba(0,87,255,0)_68%)] blur-3xl" />
 
-              <div className="pointer-events-none absolute left-[10%] top-[16%] h-px w-[24%] bg-black/10" />
-              <div className="pointer-events-none absolute left-[10%] top-[16%] h-2 w-2 -translate-y-1/2 bg-[#086BFF]" />
-              <div className="pointer-events-none absolute bottom-[16%] right-[8%] h-px w-[28%] bg-black/10" />
-              <div className="pointer-events-none absolute bottom-[16%] right-[8%] h-2 w-2 translate-y-1/2 bg-[#086BFF]" />
+                <div className="pointer-events-none absolute left-[10%] top-[16%] h-px w-[24%] bg-black/10" />
+                <div className="pointer-events-none absolute left-[10%] top-[16%] h-2 w-2 -translate-y-1/2 bg-[#086BFF]" />
+                <div className="pointer-events-none absolute bottom-[16%] right-[8%] h-px w-[28%] bg-black/10" />
+                <div className="pointer-events-none absolute bottom-[16%] right-[8%] h-2 w-2 translate-y-1/2 bg-[#086BFF]" />
 
-              <img
-                src={processVisual}
-                alt={t("visualAlt")}
-                width="1600"
-                height="1600"
-                loading="eager"
-                decoding="async"
-                className="process-visual-float relative z-10 w-[118%] max-w-none object-contain drop-shadow-[0_35px_45px_rgba(21,34,52,0.14)] sm:w-[105%] lg:w-[112%]"
-              />
+                <img
+                  src={processVisual}
+                  alt={t("visualAlt")}
+                  width="1600"
+                  height="1600"
+                  loading="eager"
+                  decoding="async"
+                  className="process-visual-float relative z-10 w-full max-w-[760px] object-contain drop-shadow-[0_35px_45px_rgba(21,34,52,0.14)] sm:w-[96%] lg:w-full"
+                />
+              </div>
             </div>
 
-            <div className="lg:pl-5 xl:pl-10">
+            <div className="min-w-0 lg:pl-5 xl:pl-10">
               <p className="text-[10px] font-semibold uppercase tracking-[0.24em] text-[#555] sm:text-[11px]">
                 {t("eyebrow")}
               </p>
@@ -150,7 +167,7 @@ function ProcessContent() {
         </div>
       </section>
 
-      <section className="bg-[#F6F5F2] px-5 pb-20 sm:px-8 sm:pb-28 lg:px-9 lg:pb-36">
+      <section className="overflow-x-clip bg-[#F6F5F2] px-5 pb-20 sm:px-8 sm:pb-28 lg:px-9 lg:pb-36">
         <div className="relative mx-auto w-full max-w-[1460px] overflow-hidden bg-[#071426] px-6 py-10 text-white sm:px-10 sm:py-14 lg:px-14 lg:py-16">
           <div className="pointer-events-none absolute -right-48 -top-52 h-[560px] w-[560px] rounded-full border border-[#1672FF]/15" />
           <div className="pointer-events-none absolute -right-20 -top-72 h-[560px] w-[560px] rounded-full border border-[#1672FF]/10" />

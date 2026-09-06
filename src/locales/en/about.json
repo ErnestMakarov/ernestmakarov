@@ -1,7 +1,80 @@
 {
-    "about": {
-    "title": "About us",
-    "description": "we are good",
-    "button": "Learn more"
+  "intro": {
+    "eyebrow": "Behind the projects",
+    "name": "Ernest Makarov · Frontend developer",
+    "title": {
+      "first": "I think like a designer.",
+      "accent": "I build",
+      "last": "like a developer."
+    },
+    "paragraphs": [
+      "My name is Ernest Makarov. For the past 3 years, I have been designing and developing websites that help businesses look more confident and work more effectively.",
+      "I study software development as a tarkvaraarendaja while working on real projects — from focused landing pages to complete online stores.",
+      "Writing code is only part of my work. I understand the challenge, plan the structure, design the interface and take the website all the way to launch."
+    ],
+    "status": "Working with projects in Estonia and remotely"
+  },
+  "facts": {
+    "experience": {
+      "label": "Experience",
+      "value": "3 years",
+      "description": "in design and web development"
+    },
+    "education": {
+      "label": "Education",
+      "value": "Tarkvaraarendaja",
+      "description": "professional software development studies"
+    },
+    "location": {
+      "label": "Location",
+      "value": "Tallinn, Estonia",
+      "description": "available locally and fully remotely"
+    },
+    "format": {
+      "label": "Format",
+      "value": "Idea to launch",
+      "description": "one point of responsibility for the project"
+    }
+  },
+  "stack": {
+    "eyebrow": "Technology",
+    "title": {
+      "first": "A broad stack.",
+      "second": "One clear result."
+    },
+    "description": "I choose tools to fit the challenge, not for fashionable names. For the client, this means a fast website, clear management and room for future growth."
+  },
+  "approach": {
+    "eyebrow": "Approach",
+    "title": {
+      "first": "One person.",
+      "second": "The entire journey."
+    },
+    "description": "No information is lost between a designer and a developer. You communicate directly with the person making decisions and responsible for the result.",
+    "items": {
+      "clarity": {
+        "title": "Understand the challenge",
+        "description": "First I clarify the business goals, audience and primary user action — only then do I propose a solution."
+      },
+      "system": {
+        "title": "Create a system",
+        "description": "Structure, visual language and interface work together to make the website consistent and easy to understand."
+      },
+      "responsibility": {
+        "title": "Own the result",
+        "description": "I design, develop, test and launch the website myself — without endless handovers between people."
+      }
+    }
+  },
+  "cta": {
+    "eyebrow": "Have an idea?",
+    "title": {
+      "first": "Let’s create",
+      "second": "something strong."
+    },
+    "description": "Tell me about your project. I will ask a few focused questions and suggest a clear next step.",
+    "primary": "Discuss a project",
+    "secondary": "View my work",
+    "status": "Open to new projects"
   }
 }

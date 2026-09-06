@@ -1,12 +1,122 @@
 {
-    "contact": {
-        "title": "Võta meiega ühendust",
-        "description": "Meie olemas on aidata teid. Palun täitke allolev vorm ja me võtame teaga ühendust võimalikult varsti.",
-        "form": {
-            "name": "Nimi",
-            "email": "E-post",
-            "message": "Sõnum",
-            "submit": "Saada"
-        }
+  "phone": {
+    "online": "veebis",
+    "step": "Samm {{current}} / 4",
+    "messages": {
+      "askName": "Tere! Mis teie nimi on?",
+      "greet": "Meeldiv tutvuda, {{name}}.",
+      "askProject": "Mida soovite luua või täiustada?",
+      "askDetails": "Kirjeldage ülesannet paari lausega.",
+      "askChannel": "Kuhu soovite minu vastust saada?",
+      "askContact": "Suurepärane. Jätke oma {{channel}} kontakt.",
+      "confirm": "Aitäh, {{name}}. Kontrollige andmed üle ja saan teie päringu kohe kätte.",
+      "sent": "Päring on saadetud. Võtan teiega ühendust ühe tööpäeva jooksul."
+    },
+    "projects": {
+      "landing": "Maandumisleht",
+      "multipage": "Mitmeleheline veeb",
+      "store": "E-pood",
+      "redesign": "Ümberdisain",
+      "other": "Muu ülesanne"
+    },
+    "channels": {
+      "email": "E-post",
+      "telegram": "Telegram",
+      "whatsapp": "WhatsApp",
+      "phone": "Telefon",
+      "instagram": "Instagram"
+    },
+    "placeholders": {
+      "name": "Sisestage oma nimi...",
+      "details": "Kirjeldage ülesannet lühidalt...",
+      "choose": "Valige üks ülalolevatest variantidest",
+      "complete": "Päring on saatmiseks valmis",
+      "channels": {
+        "email": "Teie e-post...",
+        "telegram": "Teie @kasutajanimi...",
+        "whatsapp": "Teie WhatsAppi number...",
+        "phone": "Teie telefoninumber...",
+        "instagram": "Teie @kasutajanimi..."
+      }
+    },
+    "summary": {
+      "eyebrow": "Teie päring",
+      "name": "Nimi",
+      "project": "Projekt",
+      "contact": "Kontakt"
+    },
+    "actions": {
+      "continue": "Jätka",
+      "send": "Saada päring",
+      "sending": "Saadan...",
+      "sent": "Saadetud",
+      "restart": "Alusta uuesti"
+    },
+    "errors": {
+      "config": "EmailJS pole veel seadistatud. Lisage Vercelis kolm VITE_EMAILJS muutujat ja looge uus deployment.",
+      "send": "Päringu saatmine ebaõnnestus. Proovige uuesti või kirjutage mulle otse."
     }
+  },
+  "contact": {
+    "eyebrow": "Valige kanal",
+    "title": {
+      "first": "Kirjutage sinna,",
+      "second": "kus on mugav."
+    },
+    "status": "Vastan tavaliselt ühe tööpäeva jooksul",
+    "methods": {
+      "email": {
+        "name": "E-post",
+        "description": "Sobib detailse kirjelduse ja failide jaoks",
+        "action": "Kirjuta e-kiri"
+      },
+      "telegram": {
+        "name": "Telegram",
+        "description": "Kõige kiirem viis vestlust alustada",
+        "action": "Ava vestlus"
+      },
+      "whatsapp": {
+        "name": "WhatsApp",
+        "description": "Saada sõnum või helista rakenduses",
+        "action": "Kirjuta"
+      },
+      "instagram": {
+        "name": "Instagram",
+        "description": "Võite kirjutada mulle Directi",
+        "action": "Ava profiil"
+      },
+      "phone": {
+        "name": "Telefon",
+        "description": "Kui soovite ülesannet lühidalt arutada",
+        "action": "Helista"
+      }
+    },
+    "personal": {
+      "title": "Vastan isiklikult",
+      "description": "Teie sõnum ei lähe haldurile ega botile. Saan iga päringu ise, vaatan ülesande üle ja võtan teiega otse ühendust."
+    }
+  },
+  "brief": {
+    "eyebrow": "Mida kirjutada",
+    "title": {
+      "first": "Piisab",
+      "second": "kolmest asjast."
+    },
+    "items": {
+      "task": {
+        "title": "Ülesanne",
+        "description": "Millist veebilehte või täiendust vajate ja millise ärilise eesmärgi peab tulemus saavutama."
+      },
+      "deadline": {
+        "title": "Tähtaeg",
+        "description": "Millal soovite veebilehe ideaalis käivitada. Kui täpset kuupäeva veel pole, on see täiesti normaalne."
+      },
+      "contact": {
+        "title": "Kontakt",
+        "description": "Kuhu soovite minu vastust saada: e-postile, sõnumirakendusse või telefoni teel."
+      }
+    },
+    "action": "Alusta vestlust",
+    "note": "Kõik detailid ei pea veel paigas olema. Esitan mõned täpsed küsimused ja aitan teil lähteülesande kokku panna."
+  }
 }

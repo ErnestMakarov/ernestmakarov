@@ -1,7 +1,80 @@
 {
-    "about": {
-        "title": "Meist",
-        "description": "me oleme head",
-        "button": "Loe rohkem"
+  "intro": {
+    "eyebrow": "Projektide taga",
+    "name": "Ernest Makarov · Frontend-arendaja",
+    "title": {
+      "first": "Mõtlen nagu disainer.",
+      "accent": "Ehitan",
+      "last": "nagu arendaja."
+    },
+    "paragraphs": [
+      "Minu nimi on Ernest Makarov. Olen 3 aastat disaininud ja arendanud veebilehti, mis aitavad ettevõtetel enesekindlamalt välja paista ja tõhusamalt töötada.",
+      "Õpin tarkvaraarendajaks ning töötan samal ajal päris projektidega — fokuseeritud maandumislehtedest terviklike e-poodideni.",
+      "Koodi kirjutamine on vaid üks osa minu tööst. Mõistan ülesannet, planeerin struktuuri, loon kasutajaliidese ja viin veebilehe avaldamiseni."
+    ],
+    "status": "Töötan projektidega Eestis ja kaugtööna"
+  },
+  "facts": {
+    "experience": {
+      "label": "Kogemus",
+      "value": "3 aastat",
+      "description": "disaini ja veebiarenduse valdkonnas"
+    },
+    "education": {
+      "label": "Haridus",
+      "value": "Tarkvaraarendaja",
+      "description": "professionaalsed tarkvaraarenduse õpingud"
+    },
+    "location": {
+      "label": "Asukoht",
+      "value": "Tallinn, Estonia",
+      "description": "töötan kohapeal ja täielikult kaugtööna"
+    },
+    "format": {
+      "label": "Töövorm",
+      "value": "Ideest avaldamiseni",
+      "description": "üks vastutaja kogu projekti eest"
     }
+  },
+  "stack": {
+    "eyebrow": "Tehnoloogiad",
+    "title": {
+      "first": "Lai tööriistavalik.",
+      "second": "Üks selge tulemus."
+    },
+    "description": "Valin tööriistad ülesande järgi, mitte trendikate nimetuste pärast. Kliendi jaoks tähendab see kiiret veebilehte, lihtsat haldamist ja võimalust projekti edasi arendada."
+  },
+  "approach": {
+    "eyebrow": "Lähenemine",
+    "title": {
+      "first": "Üks inimene.",
+      "second": "Kogu projekti teekond."
+    },
+    "description": "Disaineri ja arendaja vahel ei lähe informatsioon kaduma. Suhtlete otse inimesega, kes teeb otsused ja vastutab tulemuse eest.",
+    "items": {
+      "clarity": {
+        "title": "Mõistan ülesannet",
+        "description": "Kõigepealt selgitan välja ärieesmärgid, sihtrühma ja kasutaja peamise tegevuse — alles siis pakun lahenduse."
+      },
+      "system": {
+        "title": "Loon süsteemi",
+        "description": "Struktuur, visuaalne keel ja kasutajaliides töötavad koos, et veebileht oleks terviklik ja arusaadav."
+      },
+      "responsibility": {
+        "title": "Vastutan tulemuse eest",
+        "description": "Disainin, arendan, testin ja avaldan veebilehe ise — ilma ülesannete lõputu edasiandmiseta."
+      }
+    }
+  },
+  "cta": {
+    "eyebrow": "Kas teil on idee?",
+    "title": {
+      "first": "Loome koos",
+      "second": "midagi tugevat."
+    },
+    "description": "Rääkige oma projektist. Küsin mõned täpsed küsimused ja pakun välja selge järgmise sammu.",
+    "primary": "Aruta projekti",
+    "secondary": "Vaata töid",
+    "status": "Avatud uutele projektidele"
+  }
 }

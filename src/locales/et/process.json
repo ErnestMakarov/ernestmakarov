@@ -1,27 +1,44 @@
 {
   "eyebrow": "Kuidas me töötame",
+  "labels": {
+    "result": "Tulemus"
+  },
   "title": {
-    "first": "Neli etappi.",
+    "first": "Kuus etappi.",
     "second": "Ei midagi üleliigset."
   },
   "description": "Selge protsess ilma kaoseta: teate alati, mis parajasti toimub ja milline on järgmine samm.",
-  "visualAlt": "Neli kihti, mis kujutavad kaasaegse veebilehe loomise protsessi",
+  "visualAlt": "Kaasaegse veebilehe loomise protsessi kujutavad kihid",
   "steps": {
     "discovery": {
       "title": "Tutvumine",
-      "description": "Arutame ülesannet, sihtrühma, ärieesmärke ja tulemust, milleni veebileht peab viima."
+      "description": "Arutame ülesannet, sihtrühma, ärieesmärke ja tulemust, milleni veebileht peab viima.",
+      "result": "Selge eesmärk ja projekti suund"
     },
-    "structure": {
-      "title": "Struktuur",
-      "description": "Panen paika lehtede loogika ja loon arusaadava kasutajatee esimesest vaatest soovitud tegevuseni."
+    "strategy": {
+      "title": "Strateegia ja struktuur",
+      "description": "Määran prioriteedid, panen paika lehtede loogika ja loon selge kasutajatee soovitud tegevuseni.",
+      "result": "Lehekaart ja selge kasutajateekond"
     },
-    "creation": {
-      "title": "Disain ja arendus",
-      "description": "Loon visuaalse süsteemi, kohandan selle kõigile seadmetele ja muudan disaini toimivaks veebileheks."
+    "design": {
+      "title": "Disain",
+      "description": "Loon visuaalse suuna, kasutajaliidese ja kohanduvad vaated, mis sobivad ettevõtte iseloomuga.",
+      "result": "Kõigi vaadete kinnitatud disain"
+    },
+    "development": {
+      "title": "Arendus",
+      "description": "Muudan disaini kiireks ja kohanduvaks veebileheks ning lisan animatsioonid, vormid ja vajaliku loogika.",
+      "result": "Täielikult toimiv veebileht"
+    },
+    "testing": {
+      "title": "Testimine",
+      "description": "Kontrollin erinevaid seadmeid, kiirust, linke, vorme ja kogu kasutajateekonda.",
+      "result": "Testitud ja avaldamiseks valmis veebileht"
     },
     "launch": {
       "title": "Avaldamine",
-      "description": "Kontrollin detaile, kiirust ja vorme, ühendan domeeni ning annan üle valmis projekti."
+      "description": "Ühendan domeeni, seadistan avaldamise ja annan üle kõik edasiseks kasutamiseks vajaliku.",
+      "result": "Teie domeenil avaldatud veebileht"
     }
   },
   "cta": {

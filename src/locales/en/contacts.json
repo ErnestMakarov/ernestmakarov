@@ -1,12 +1,122 @@
 {
-    "contact": {
-        "title": "Contact us",
-        "description": "We are here to help you. Please fill out the form below and we will get back to you as soon as possible.",
-        "form": {
-            "name": "Name",
-            "email": "Email",
-            "message": "Message",
-            "submit": "Submit"
-        }
+  "phone": {
+    "online": "online",
+    "step": "Step {{current}} of 4",
+    "messages": {
+      "askName": "Hi! What is your name?",
+      "greet": "Nice to meet you, {{name}}.",
+      "askProject": "What would you like to create or improve?",
+      "askDetails": "Tell me about the task in a few sentences.",
+      "askChannel": "Where would you prefer to receive my reply?",
+      "askContact": "Great. Leave your {{channel}} contact details.",
+      "confirm": "Thank you, {{name}}. Check the details and I will receive your request right away.",
+      "sent": "Your request has been sent. I will contact you within one business day."
+    },
+    "projects": {
+      "landing": "Landing page",
+      "multipage": "Multi-page website",
+      "store": "Online store",
+      "redesign": "Redesign",
+      "other": "Other task"
+    },
+    "channels": {
+      "email": "Email",
+      "telegram": "Telegram",
+      "whatsapp": "WhatsApp",
+      "phone": "Phone",
+      "instagram": "Instagram"
+    },
+    "placeholders": {
+      "name": "Enter your name...",
+      "details": "Briefly describe the task...",
+      "choose": "Choose one of the options above",
+      "complete": "Your request is ready to send",
+      "channels": {
+        "email": "Your email...",
+        "telegram": "Your @username...",
+        "whatsapp": "Your WhatsApp number...",
+        "phone": "Your phone number...",
+        "instagram": "Your @username..."
+      }
+    },
+    "summary": {
+      "eyebrow": "Your request",
+      "name": "Name",
+      "project": "Project",
+      "contact": "Contact"
+    },
+    "actions": {
+      "continue": "Continue",
+      "send": "Send request",
+      "sending": "Sending...",
+      "sent": "Sent",
+      "restart": "Restart"
+    },
+    "errors": {
+      "config": "EmailJS is not configured yet. Add the three VITE_EMAILJS variables in Vercel and create a new deployment.",
+      "send": "The request could not be sent. Please try again or contact me directly."
     }
+  },
+  "contact": {
+    "eyebrow": "Choose a channel",
+    "title": {
+      "first": "Message me",
+      "second": "where it suits you."
+    },
+    "status": "I usually reply within one business day",
+    "methods": {
+      "email": {
+        "name": "Email",
+        "description": "Best for a detailed brief and attachments",
+        "action": "Write an email"
+      },
+      "telegram": {
+        "name": "Telegram",
+        "description": "The fastest way to start a conversation",
+        "action": "Open chat"
+      },
+      "whatsapp": {
+        "name": "WhatsApp",
+        "description": "Send a message or call in the app",
+        "action": "Message me"
+      },
+      "instagram": {
+        "name": "Instagram",
+        "description": "You can reach me through Direct",
+        "action": "Open profile"
+      },
+      "phone": {
+        "name": "Phone",
+        "description": "For a quick conversation by voice",
+        "action": "Call"
+      }
+    },
+    "personal": {
+      "title": "I reply personally",
+      "description": "Your message will not go to a manager or a bot. I receive every request myself, review the task and get back to you directly."
+    }
+  },
+  "brief": {
+    "eyebrow": "What to include",
+    "title": {
+      "first": "Three things",
+      "second": "are enough."
+    },
+    "items": {
+      "task": {
+        "title": "The task",
+        "description": "What kind of website or improvement you need and what business goal it should achieve."
+      },
+      "deadline": {
+        "title": "The timing",
+        "description": "When you would ideally like to launch. It is completely fine if there is no exact date yet."
+      },
+      "contact": {
+        "title": "Your contact",
+        "description": "Where you would prefer to receive my reply: email, messenger or phone."
+      }
+    },
+    "action": "Start a conversation",
+    "note": "You do not need to have every detail figured out. I will ask a few focused questions and help shape the brief with you."
+  }
 }
