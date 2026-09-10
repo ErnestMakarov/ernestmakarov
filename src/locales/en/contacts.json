@@ -4,6 +4,11 @@
       "description": "Tell me about your project and receive a personal reply. Contact me by email, Telegram, WhatsApp, Instagram or phone."
   },
   "phone": {
+    "privacy": {
+  "prefix": "I have read the",
+  "link": "Privacy Policy",
+  "suffix": "and understand how my data will be processed."
+},
     "online": "online",
     "step": "Step {{current}} of 4",
     "messages": {
@@ -58,7 +63,8 @@
     },
     "errors": {
       "config": "EmailJS is not configured yet. Add the three VITE_EMAILJS variables in Vercel and create a new deployment.",
-      "send": "The request could not be sent. Please try again or contact me directly."
+      "send": "The request could not be sent. Please try again or contact me directly.",
+      "privacy": "Please confirm that you have read the Privacy Policy."
     }
   },
   "contact": {

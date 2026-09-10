@@ -1,0 +1,168 @@
+{
+  "seo": {
+    "title": "Privacy Policy — Ernest Makarov",
+    "description": "How Ernest Makarov processes data submitted through ernestmakarov.ee, including purposes, retention, deletion, EmailJS, Vercel Analytics and your rights."
+  },
+  "eyebrow": "Legal information",
+  "footerLink": "Privacy policy",
+  "title": "Privacy policy",
+  "intro": "This policy explains what personal data is processed on ernestmakarov.ee, why it is needed, who may receive it, how long it is kept and what rights you have.",
+  "updatedLabel": "Last updated",
+  "updatedDate": "10 September 2026",
+  "contents": "Contents",
+  "summary": "In short: I use the information you submit only to respond to your enquiry, discuss a project and prepare an offer. I do not sell personal data, use it for marketing emails or make automated decisions based on it.",
+  "sections": [
+    {
+      "id": "controller",
+      "shortTitle": "Who controls the data",
+      "title": "Data controller",
+      "paragraphs": [
+        "The controller responsible for personal data is Ernest Makarov, an independent web developer based in Tallinn, Estonia.",
+        "For questions about processing, or to request a copy or deletion of your data, contact me by email. No data protection officer has been appointed because the nature and scale of the current processing do not require one."
+      ],
+      "contacts": [
+        {
+          "label": "Email",
+          "value": "ernestmakarov.ee@gmail.com",
+          "href": "mailto:ernestmakarov.ee@gmail.com?subject=Personal%20data%20request"
+        },
+        {
+          "label": "Phone",
+          "value": "+372 5598 7255",
+          "href": "tel:+37255987255"
+        }
+      ]
+    },
+    {
+      "id": "data",
+      "shortTitle": "Data collected",
+      "title": "Data I process",
+      "paragraphs": [
+        "I process only the information needed to respond to your enquiry and work on a potential project."
+      ],
+      "items": [
+        "The name you enter in the form.",
+        "The selected project type and the project details you provide in free text.",
+        "Your selected contact channel and the email address, username or phone number you provide.",
+        "The interface language, the URL from which the enquiry is sent, and the submission date and time.",
+        "Technical data required by website providers for form delivery, security and aggregated statistics, such as request information, browser, device type, referrer and approximate region.",
+        "The contents of later correspondence if you continue the conversation by email, phone or the selected messaging service."
+      ]
+    },
+    {
+      "id": "form",
+      "shortTitle": "How the form works",
+      "title": "How the chat form works",
+      "paragraphs": [
+        "The website chat is an interactive form, not an artificial intelligence system. Your answers remain in the interface until you press the send button. Once submitted, your name, project information and contact details are transmitted through EmailJS to my email inbox.",
+        "Before sending, you acknowledge that you have read this policy. This records that the privacy notice was made available; it is not consent to advertising or to processing for unspecified purposes.",
+        "Providing the fields is voluntary, but without a name, project description and contact method I cannot receive and answer your enquiry. Do not submit passwords, payment data, identity documents, health information or other sensitive data through the form."
+      ]
+    },
+    {
+      "id": "purposes",
+      "shortTitle": "Purposes and legal bases",
+      "title": "Why I process data",
+      "paragraphs": [
+        "Processing is limited to the following purposes and legal bases under the EU General Data Protection Regulation (GDPR)."
+      ],
+      "items": [
+        "Responding to your enquiry, clarifying the brief and preparing an offer: steps taken at your request before a possible contract, Article 6(1)(b) GDPR.",
+        "Maintaining business correspondence and preventing abuse: my legitimate interests in communication and website security, Article 6(1)(f) GDPR.",
+        "Aggregated traffic analytics used to improve the website: my legitimate interest in evaluating and improving the website, Article 6(1)(f) GDPR.",
+        "Keeping records relating to an agreed project where required by law: compliance with a legal obligation, Article 6(1)(c) GDPR."
+      ]
+    },
+    {
+      "id": "recipients",
+      "shortTitle": "Services and transfers",
+      "title": "Recipients and international transfers",
+      "paragraphs": [
+        "Data is available only to services needed to operate the website and answer enquiries: EmailJS Pte. Ltd. transmits the form to the email service; my email provider stores the resulting correspondence; and Vercel hosts the website and provides aggregated web analytics.",
+        "If you select Telegram, WhatsApp, Instagram or phone, further communication takes place through the relevant provider and is also subject to that provider's privacy terms. Data may be disclosed to public authorities or professional advisers only where legally required or necessary to establish, exercise or defend legal claims.",
+        "Some providers may process data outside the European Economic Area. EmailJS states that its primary servers are in the United States and that Standard Contractual Clauses are used for European transfers. EmailJS processes form data as a service provider on my behalf."
+      ],
+      "links": [
+        {
+          "label": "EmailJS Privacy Policy",
+          "href": "https://www.emailjs.com/legal/privacy-policy/"
+        },
+        {
+          "label": "EmailJS Terms and DPA",
+          "href": "https://www.emailjs.com/legal/terms-of-service/"
+        },
+        {
+          "label": "Vercel Analytics Privacy",
+          "href": "https://vercel.com/docs/analytics/privacy-policy"
+        }
+      ]
+    },
+    {
+      "id": "retention",
+      "shortTitle": "Retention and deletion",
+      "title": "Retention and deletion",
+      "paragraphs": [
+        "Enquiries that do not lead to a project or contract are kept for no longer than 12 months after the last meaningful communication, so that I can continue the discussion and understand its context.",
+        "If a project starts or a contract is concluded, relevant data is kept during the engagement and afterwards for as long as objectively needed to perform obligations, resolve disputes and protect legal rights. Invoices and other mandatory records are retained for the period required by applicable accounting and tax law.",
+        "EmailJS applies its own retention periods to data and metadata within its service. Its current policy states that active-account data is retained for 30 days and that data is removed from production servers when an account is deleted. The copy delivered to my email inbox follows the retention periods stated above.",
+        "Data will be deleted earlier following a valid request unless continued retention is required by law, an active contract or the need to protect legal claims. Residual copies may remain for a limited period in technical backups until they are routinely overwritten."
+      ]
+    },
+    {
+      "id": "analytics",
+      "shortTitle": "Analytics and cookies",
+      "title": "Analytics and browser technologies",
+      "paragraphs": [
+        "The website uses Vercel Web Analytics. According to Vercel, it collects minimal aggregated data by default without linking it to a particular person or IP address and does not use third-party cookies. Page URL, referrer, approximate region, browser, operating system and device type may be processed; the session hash is automatically discarded after 24 hours.",
+        "The website may store your selected interface language locally in your browser. This information is not used for advertising. At the date of this policy, the website does not use advertising pixels, profiling, Google Analytics or marketing cookies.",
+        "If advertising or other optional technologies are added later, this policy will be updated and any required consent mechanism will be implemented before they are enabled."
+      ]
+    },
+    {
+      "id": "rights",
+      "shortTitle": "Your rights",
+      "title": "Your rights",
+      "paragraphs": [
+        "Where provided by the GDPR, you may request access to and a copy of your data, correction, deletion, restriction of processing and data portability, and you may object to processing based on legitimate interests.",
+        "Send requests to ernestmakarov.ee@gmail.com. To protect your information, I may ask for reasonable proof of identity. I will respond without undue delay and normally within one month. Some rights may be limited where data must be retained by law or to protect legal claims.",
+        "If you believe that your data is being processed unlawfully, please contact me first. You may also lodge a complaint with the Estonian Data Protection Inspectorate (Andmekaitse Inspektsioon) or the supervisory authority in the country where you usually live or work."
+      ],
+      "links": [
+        {
+          "label": "Estonian Data Protection Inspectorate",
+          "href": "https://www.aki.ee/en"
+        }
+      ]
+    },
+    {
+      "id": "security",
+      "shortTitle": "Security",
+      "title": "Data security",
+      "paragraphs": [
+        "I use reasonable technical and organisational safeguards: access to email and services is restricted, secure connections and current account credentials are used, and only necessary information is collected. However, no method of online transmission or storage can guarantee absolute security.",
+        "If I become aware of a personal data breach likely to create a high risk to your rights and freedoms, I will comply with the applicable duties to notify the supervisory authority and affected individuals."
+      ]
+    },
+    {
+      "id": "children",
+      "shortTitle": "Children",
+      "title": "Children's data",
+      "paragraphs": [
+        "The website and form are intended for business enquiries and are not directed at children. I do not knowingly collect data from children under 16. If you become aware that a child submitted information without the necessary authorisation, contact me and it will be deleted after verification."
+      ]
+    },
+    {
+      "id": "changes",
+      "shortTitle": "Policy changes",
+      "title": "Changes to this policy",
+      "paragraphs": [
+        "This policy may be updated when the form, service providers or legal requirements change. The current version will always appear on this page and the last-updated date is shown above. Material changes will not be applied retroactively to incompatible purposes without a separate notice and an appropriate legal basis."
+      ]
+    }
+  ],
+  "question": {
+    "eyebrow": "Questions?",
+    "text": "Send me a message and I will reply personally.",
+    "action": "Go to contacts"
+  }
+}

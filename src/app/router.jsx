@@ -8,6 +8,7 @@ import NotFound from "../pages/NotFound/NotFound.jsx";
 import Work from "../pages/Work/Work.jsx";
 import Services from "../pages/Services/Services.jsx";
 import Process from "../pages/Process/Process.jsx";
+import Privacy from "../pages/Privacy/Privacy.jsx";
 
 export const router = createBrowserRouter([
   {
@@ -36,6 +37,10 @@ export const router = createBrowserRouter([
       {
         path: "/contacts",
         element: <ContactsPage />,
+      },
+      {
+        path: "/privacy-policy",
+        element: <Privacy />,
       },
       {
         path: "*",

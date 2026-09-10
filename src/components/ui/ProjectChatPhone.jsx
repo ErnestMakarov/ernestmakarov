@@ -1,6 +1,6 @@
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useId, useMemo, useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
-import { useLocation } from "react-router";
+import { Link, useLocation } from "react-router";
 import { useTranslation } from "react-i18next";
 
 import faceImage from "../../assets/images/face.png";
@@ -76,6 +76,7 @@ function ProjectChatPhone({ className = "" }) {
   const timersRef = useRef([]);
   const sequenceRef = useRef(0);
   const startedRef = useRef(false);
+  const privacyCheckboxId = useId();
 
   const [messages, setMessages] = useState([]);
   const [form, setForm] = useState(initialForm);
@@ -84,6 +85,7 @@ function ProjectChatPhone({ className = "" }) {
   const [typing, setTyping] = useState(false);
   const [submitState, setSubmitState] = useState("idle");
   const [error, setError] = useState("");
+  const [privacyAccepted, setPrivacyAccepted] = useState(false);
 
   const progress = useMemo(() => {
     if (step <= 0) return 25;
@@ -160,6 +162,7 @@ function ProjectChatPhone({ className = "" }) {
     setTyping(false);
     setSubmitState("idle");
     setError("");
+    setPrivacyAccepted(false);
 
     if (startImmediately) {
       addTimer(startConversation, 120);
@@ -254,6 +257,11 @@ function ProjectChatPhone({ className = "" }) {
   const sendApplication = async () => {
     if (submitState === "sending" || submitState === "sent") return;
 
+    if (!privacyAccepted) {
+      setError(t("phone.errors.privacy"));
+      return;
+    }
+
     const serviceId = "service_jdvx8ca";
     const templateId = "template_w14nhub";
     const publicKey = "4pKDoobEZeprEg26V";
@@ -280,6 +288,8 @@ function ProjectChatPhone({ className = "" }) {
           language: i18n.resolvedLanguage || i18n.language,
           page_url: window.location.href,
           submitted_at: new Date().toLocaleString(),
+          privacy_policy_version: "2026-09-10",
+          privacy_notice_acknowledged: "yes",
         },
         { publicKey },
       );
@@ -412,11 +422,73 @@ function ProjectChatPhone({ className = "" }) {
                       </div>
                     </dl>
 
+                    <div className="mt-5 border-t border-white/[0.09] pt-4">
+                      <div className="flex items-start gap-3">
+                        <input
+                          id={privacyCheckboxId}
+                          type="checkbox"
+                          checked={privacyAccepted}
+                          onChange={(event) => {
+                            setPrivacyAccepted(event.target.checked);
+                            if (event.target.checked) setError("");
+                          }}
+                          aria-describedby={`${privacyCheckboxId}-description`}
+                          className="peer sr-only"
+                        />
+
+                        <label
+                          htmlFor={privacyCheckboxId}
+                          className="mt-0.5 flex h-[17px] w-[17px] shrink-0 cursor-pointer items-center justify-center rounded-[5px] border border-white/25 bg-white/[0.04] text-white transition peer-checked:border-[#1475FF] peer-checked:bg-[#0768F8] peer-focus-visible:ring-2 peer-focus-visible:ring-[#4D9AFF] peer-focus-visible:ring-offset-2 peer-focus-visible:ring-offset-[#0D1A2C]"
+                        >
+                          <svg
+                            viewBox="0 0 12 10"
+                            fill="none"
+                            aria-hidden="true"
+                            className={`h-2.5 w-3 transition-opacity ${
+                              privacyAccepted ? "opacity-100" : "opacity-0"
+                            }`}
+                          >
+                            <path
+                              d="m1.5 5 2.7 2.7L10.5 1.5"
+                              stroke="currentColor"
+                              strokeWidth="1.8"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                            />
+                          </svg>
+                        </label>
+
+                        <p
+                          id={`${privacyCheckboxId}-description`}
+                          className="text-[9.5px] leading-[1.55] text-[#91A3BA]"
+                        >
+                          <label htmlFor={privacyCheckboxId} className="cursor-pointer">
+                            {t("phone.privacy.prefix")}
+                          </label>{" "}
+                          <Link
+                            to="/privacy-policy"
+                            target="_blank"
+                            rel="noreferrer"
+                            className="text-[#4D9AFF] underline decoration-[#4D9AFF]/45 underline-offset-2 transition hover:text-[#78B2FF]"
+                          >
+                            {t("phone.privacy.link")}
+                          </Link>{" "}
+                          <label htmlFor={privacyCheckboxId} className="cursor-pointer">
+                            {t("phone.privacy.suffix")}
+                          </label>
+                        </p>
+                      </div>
+                    </div>
+
                     <div className="mt-5 flex gap-2">
                       <button
                         type="button"
                         onClick={sendApplication}
-                        disabled={submitState === "sending" || submitState === "sent"}
+                        disabled={
+                          !privacyAccepted ||
+                          submitState === "sending" ||
+                          submitState === "sent"
+                        }
                         className="flex min-h-11 flex-1 items-center justify-center rounded-[12px] bg-[#0768F8] px-3 text-[12px] font-medium transition hover:bg-[#0861DF] disabled:cursor-default disabled:opacity-65"
                       >
                         {submitState === "sending"

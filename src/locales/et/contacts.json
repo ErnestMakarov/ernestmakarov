@@ -4,6 +4,11 @@
       "description": "Kirjeldage oma projekti ja saate personaalse vastuse. Võtke ühendust e-posti, Telegrami, WhatsAppi, Instagrami või telefoni kaudu."
   },
   "phone": {
+    "privacy": {
+  "prefix": "Olen tutvunud",
+  "link": "privaatsuspoliitikaga",
+  "suffix": "ja mõistan, kuidas minu andmeid töödeldakse."
+},
     "online": "veebis",
     "step": "Samm {{current}} / 4",
     "messages": {
@@ -58,7 +63,8 @@
     },
     "errors": {
       "config": "EmailJS pole veel seadistatud. Lisage Vercelis kolm VITE_EMAILJS muutujat ja looge uus deployment.",
-      "send": "Päringu saatmine ebaõnnestus. Proovige uuesti või kirjutage mulle otse."
+      "send": "Päringu saatmine ebaõnnestus. Proovige uuesti või kirjutage mulle otse.",
+      "privacy": "Palun kinnitage, et olete privaatsuspoliitikaga tutvunud."
     }
   },
   "contact": {

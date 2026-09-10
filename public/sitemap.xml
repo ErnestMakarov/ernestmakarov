@@ -18,4 +18,9 @@
   <url>
     <loc>https://ernestmakarov.ee/contacts</loc>
   </url>
+  <url>
+  <loc>https://ernestmakarov.ee/privacy-policy</loc>
+  <changefreq>yearly</changefreq>
+  <priority>0.3</priority>
+</url>
 </urlset>

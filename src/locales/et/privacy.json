@@ -1,0 +1,168 @@
+{
+  "seo": {
+    "title": "Privaatsuspoliitika — Ernest Makarov",
+    "description": "Kuidas Ernest Makarov töötleb veebilehe ernestmakarov.ee kaudu saadetud andmeid: eesmärgid, säilitamine, kustutamine, EmailJS, Vercel Analytics ja teie õigused."
+  },
+  "eyebrow": "Õiguslik teave",
+  "footerLink": "Privaatsuspoliitika",
+  "title": "Privaatsuspoliitika",
+  "intro": "Käesolev poliitika selgitab, milliseid isikuandmeid veebilehel ernestmakarov.ee töödeldakse, miks neid vajatakse, kellele neid võidakse edastada, kui kaua neid säilitatakse ja millised on teie õigused.",
+  "updatedLabel": "Viimati uuendatud",
+  "updatedDate": "10. september 2026",
+  "contents": "Sisukord",
+  "summary": "Lühidalt: kasutan teie saadetud andmeid ainult päringule vastamiseks, projekti arutamiseks ja pakkumise koostamiseks. Ma ei müü isikuandmeid, ei kasuta neid turunduskirjadeks ega tee nende põhjal automatiseeritud otsuseid.",
+  "sections": [
+    {
+      "id": "controller",
+      "shortTitle": "Kes vastutab andmete eest",
+      "title": "Vastutav töötleja",
+      "paragraphs": [
+        "Isikuandmete töötlemise eest vastutab Tallinnas tegutsev sõltumatu veebiarendaja Ernest Makarov.",
+        "Andmete töötlemisega seotud küsimuste ning andmete koopia või kustutamise taotluse korral võtke minuga ühendust e-posti teel. Andmekaitsespetsialisti ei ole määratud, sest praeguse töötlemise laad ja ulatus seda ei nõua."
+      ],
+      "contacts": [
+        {
+          "label": "E-post",
+          "value": "ernestmakarov.ee@gmail.com",
+          "href": "mailto:ernestmakarov.ee@gmail.com?subject=Isikuandmete%20taotlus"
+        },
+        {
+          "label": "Telefon",
+          "value": "+372 5598 7255",
+          "href": "tel:+37255987255"
+        }
+      ]
+    },
+    {
+      "id": "data",
+      "shortTitle": "Kogutavad andmed",
+      "title": "Milliseid andmeid töötlen",
+      "paragraphs": [
+        "Töötlen ainult teavet, mida on vaja teie päringule vastamiseks ja võimaliku projektiga tegelemiseks."
+      ],
+      "items": [
+        "Vormile sisestatud nimi.",
+        "Valitud projekti liik ja vabas vormis esitatud projekti kirjeldus.",
+        "Valitud suhtluskanal ning esitatud e-posti aadress, kasutajanimi või telefoninumber.",
+        "Kasutajaliidese keel, päringu saatmise lehe aadress ning saatmise kuupäev ja kellaaeg.",
+        "Veebilehe teenusepakkujatele vormi edastamiseks, turvalisuseks ja koondstatistikaks vajalikud tehnilised andmed, näiteks päringu, brauseri, seadme tüübi, viitaja ja ligikaudse piirkonna andmed.",
+        "Hilisema kirjavahetuse sisu, kui jätkate suhtlust e-posti, telefoni või valitud sõnumirakenduse kaudu."
+      ]
+    },
+    {
+      "id": "form",
+      "shortTitle": "Vormi toimimine",
+      "title": "Kuidas vestlusvorm töötab",
+      "paragraphs": [
+        "Veebilehe vestlus on interaktiivne vorm, mitte tehisintellekt. Teie vastused jäävad kasutajaliidesesse kuni saatmisnupu vajutamiseni. Pärast saatmist edastatakse nimi, projektiinfo ja kontaktandmed EmailJS-i kaudu minu e-posti postkasti.",
+        "Enne saatmist kinnitate, et olete käesoleva poliitikaga tutvunud. See fikseerib privaatsusteabe kättesaadavaks tegemise, kuid ei ole nõusolek reklaamiks ega andmete kasutamiseks määratlemata eesmärkidel.",
+        "Väljade täitmine on vabatahtlik, kuid ilma nime, projekti kirjelduse ja suhtlusviisita ei saa ma päringut vastu võtta ega sellele vastata. Ärge saatke vormi kaudu paroole, makseandmeid, isikut tõendavaid dokumente, terviseandmeid ega muid tundlikke andmeid."
+      ]
+    },
+    {
+      "id": "purposes",
+      "shortTitle": "Eesmärgid ja alused",
+      "title": "Miks andmeid töötlen",
+      "paragraphs": [
+        "Töötlemine piirdub järgmiste eesmärkide ja Euroopa Liidu isikuandmete kaitse üldmäärusest (GDPR) tulenevate õiguslike alustega."
+      ],
+      "items": [
+        "Päringule vastamine, lähteülesande täpsustamine ja pakkumise koostamine: teie taotlusel tehtavad toimingud enne võimalikku lepingu sõlmimist, GDPR artikli 6 lõike 1 punkt b.",
+        "Ärikirjavahetuse pidamine ja väärkasutuse ennetamine: minu õigustatud huvi suhtluse ja veebilehe turvalisuse vastu, GDPR artikli 6 lõike 1 punkt f.",
+        "Veebilehe parandamiseks kasutatav koondatud külastusanalüütika: minu õigustatud huvi veebilehe toimimise hindamise ja parandamise vastu, GDPR artikli 6 lõike 1 punkt f.",
+        "Kokkulepitud projektiga seotud dokumentide säilitamine, kui seadus seda nõuab: juriidilise kohustuse täitmine, GDPR artikli 6 lõike 1 punkt c."
+      ]
+    },
+    {
+      "id": "recipients",
+      "shortTitle": "Teenused ja edastamine",
+      "title": "Vastuvõtjad ja rahvusvaheline edastamine",
+      "paragraphs": [
+        "Andmetele pääsevad ligi ainult veebilehe toimimiseks ja päringule vastamiseks vajalikud teenused: EmailJS Pte. Ltd. edastab vormi e-posti teenusele; minu e-posti teenusepakkuja säilitab tekkinud kirjavahetuse; Vercel majutab veebilehte ja pakub koondatud veebianalüütikat.",
+        "Kui valite Telegrami, WhatsAppi, Instagrami või telefoni, toimub edasine suhtlus vastava teenusepakkuja kaudu ning sellele kohaldub ka tema privaatsuspoliitika. Andmeid võidakse avaldada ametiasutustele või professionaalsetele nõustajatele üksnes juriidilise kohustuse korral või õigusnõuete koostamiseks, esitamiseks või kaitsmiseks.",
+        "Mõned teenusepakkujad võivad töödelda andmeid väljaspool Euroopa Majanduspiirkonda. EmailJS teatab, et tema põhiserverid asuvad Ameerika Ühendriikides ning Euroopa andmeedastuste puhul kasutatakse standardseid andmekaitseklausleid. EmailJS töötleb vormiandmeid minu nimel teenuseosutajana."
+      ],
+      "links": [
+        {
+          "label": "EmailJS-i privaatsuspoliitika",
+          "href": "https://www.emailjs.com/legal/privacy-policy/"
+        },
+        {
+          "label": "EmailJS-i tingimused ja DPA",
+          "href": "https://www.emailjs.com/legal/terms-of-service/"
+        },
+        {
+          "label": "Vercel Analyticsi privaatsus",
+          "href": "https://vercel.com/docs/analytics/privacy-policy"
+        }
+      ]
+    },
+    {
+      "id": "retention",
+      "shortTitle": "Säilitamine ja kustutamine",
+      "title": "Säilitamine ja kustutamine",
+      "paragraphs": [
+        "Päringuid, millest ei kujune projekti ega lepingut, säilitatakse kuni 12 kuud pärast viimast sisulist suhtlust, et saaksin vestlust jätkata ja selle konteksti mõista.",
+        "Kui projekt algab või sõlmitakse leping, säilitatakse sellega seotud andmeid koostöö ajal ja seejärel nii kaua, kui see on objektiivselt vajalik kohustuste täitmiseks, vaidluste lahendamiseks ja õiguste kaitseks. Arveid ja muid kohustuslikke dokumente säilitatakse kohaldatavas raamatupidamis- ja maksuõiguses nõutud aja jooksul.",
+        "EmailJS kohaldab oma teenuses olevatele andmetele ja metaandmetele enda säilitustähtaegu. Tema kehtiv poliitika märgib aktiivse konto andmete 30-päevast säilitamist ja andmete eemaldamist tootmisserveritest konto kustutamisel. Minu e-posti postkasti edastatud koopiale kohaldatakse eespool kirjeldatud tähtaegu.",
+        "Põhjendatud taotluse korral kustutatakse andmed varem, välja arvatud juhul, kui nende jätkuv säilitamine on vajalik seaduse, kehtiva lepingu või õigusnõuete kaitse tõttu. Jääkkopiad võivad jääda piiratud ajaks tehnilistesse varukoopiatesse kuni tavapärase ülekirjutamiseni."
+      ]
+    },
+    {
+      "id": "analytics",
+      "shortTitle": "Analüütika ja küpsised",
+      "title": "Analüütika ja brauseritehnoloogiad",
+      "paragraphs": [
+        "Veebileht kasutab Vercel Web Analyticsit. Verceli teatel kogub süsteem vaikimisi minimaalselt koondatud andmeid, sidumata neid konkreetse inimese või IP-aadressiga, ning ei kasuta kolmandate osapoolte küpsiseid. Töödelda võidakse lehe URL-i, viitajat, ligikaudset piirkonda, brauserit, operatsioonisüsteemi ja seadme tüüpi; seansi räsi kustutatakse automaatselt 24 tunni pärast.",
+        "Veebileht võib salvestada valitud kasutajaliidese keele lokaalselt teie brauserisse. Seda teavet ei kasutata reklaamiks. Poliitika uuendamise kuupäeval ei kasuta veebileht reklaamipiksleid, profiilianalüüsi, Google Analyticsit ega turundusküpsiseid.",
+        "Kui hiljem lisatakse reklaami- või muid valikulisi tehnoloogiaid, uuendatakse poliitikat ja enne nende aktiveerimist rakendatakse nõutav nõusolekumehhanism."
+      ]
+    },
+    {
+      "id": "rights",
+      "shortTitle": "Teie õigused",
+      "title": "Teie õigused",
+      "paragraphs": [
+        "GDPR-is sätestatud juhtudel võite taotleda juurdepääsu oma andmetele ja nende koopiat, andmete parandamist või kustutamist, töötlemise piiramist ja andmete ülekandmist ning esitada vastuväite õigustatud huvil põhinevale töötlemisele.",
+        "Saatke taotlus aadressile ernestmakarov.ee@gmail.com. Teie andmete kaitseks võin paluda isikusamasuse mõistlikku tõendamist. Vastan põhjendamatu viivituseta ja tavaliselt ühe kuu jooksul. Mõni õigus võib olla piiratud, kui andmeid tuleb säilitada seaduse alusel või õigusnõuete kaitseks.",
+        "Kui arvate, et teie andmeid töödeldakse õigusvastaselt, võtke esmalt minuga ühendust. Samuti võite esitada kaebuse Andmekaitse Inspektsioonile või oma tavapärase elu- või töökoha riigi järelevalveasutusele."
+      ],
+      "links": [
+        {
+          "label": "Andmekaitse Inspektsioon",
+          "href": "https://www.aki.ee"
+        }
+      ]
+    },
+    {
+      "id": "security",
+      "shortTitle": "Turvalisus",
+      "title": "Andmete turvalisus",
+      "paragraphs": [
+        "Kasutan mõistlikke tehnilisi ja korralduslikke kaitsemeetmeid: juurdepääs e-postile ja teenustele on piiratud, kasutatakse turvalisi ühendusi ja ajakohaseid kontoandmeid ning kogutakse ainult vajalikku teavet. Ükski internetis edastamise või säilitamise meetod ei saa siiski tagada absoluutset turvalisust.",
+        "Kui saan teada isikuandmetega seotud rikkumisest, mis tõenäoliselt tekitab suure ohu teie õigustele ja vabadustele, täidan kohaldatavad kohustused teavitada järelevalveasutust ja puudutatud isikuid."
+      ]
+    },
+    {
+      "id": "children",
+      "shortTitle": "Lapsed",
+      "title": "Laste andmed",
+      "paragraphs": [
+        "Veebileht ja vorm on mõeldud äripäringuteks ega ole suunatud lastele. Ma ei kogu teadlikult alla 16-aastaste laste andmeid. Kui saate teada, et laps on esitanud andmeid ilma vajaliku loata, võtke minuga ühendust ja andmed kustutatakse pärast kontrollimist."
+      ]
+    },
+    {
+      "id": "changes",
+      "shortTitle": "Poliitika muudatused",
+      "title": "Poliitika muutmine",
+      "paragraphs": [
+        "Poliitikat võidakse uuendada vormi, teenusepakkujate või õigusnõuete muutumisel. Kehtiv versioon avaldatakse alati sellel lehel ja ülal on näidatud viimase uuendamise kuupäev. Olulisi muudatusi ei kohaldata tagasiulatuvalt kokkusobimatutele eesmärkidele ilma eraldi teavituse ja sobiva õigusliku aluseta."
+      ]
+    }
+  ],
+  "question": {
+    "eyebrow": "Kas tekkis küsimusi?",
+    "text": "Kirjutage mulle — vastan isiklikult.",
+    "action": "Ava kontaktid"
+  }
+}

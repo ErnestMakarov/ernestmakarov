@@ -30,6 +30,10 @@ import processRu from "./locales/ru/process.json";
 import processEn from "./locales/en/process.json";
 import processEt from "./locales/et/process.json";
 
+import privacyRu from "./locales/ru/privacy.json";
+import privacyEn from "./locales/en/privacy.json";
+import privacyEt from "./locales/et/privacy.json";
+
 i18n
   .use(LanguageDetector)
   .use(initReactI18next)
@@ -43,6 +47,7 @@ i18n
         process: processEt,
         about: etAbout,
         contacts: etContacts,
+        privacy: privacyEt,
       },
       en: {
         common: enCommon,
@@ -52,6 +57,7 @@ i18n
         process: processEn,
         about: enAbout,
         contacts: enContacts,
+        privacy: privacyEn,
       },
       ru: {
         common: ruCommon,
@@ -61,6 +67,7 @@ i18n
         process: processRu,
         about: ruAbout,
         contacts: ruContacts,
+        privacy: privacyRu,
       },
     },
 
@@ -69,7 +76,7 @@ i18n
     lng: localStorage.getItem("language") || "et",
 
     defaultNS: "common",
-    ns: ["common", "home", "work", "services", "process", "about", "contacts"],
+    ns: ["common", "home", "work", "services", "process", "about", "contacts", "privacy"],
 
     interpolation: {
       escapeValue: false,
