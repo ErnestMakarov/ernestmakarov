@@ -24,7 +24,7 @@ const projects = [
     id: "mfc",
     number: "02",
     year: "2026",
-    url: "https://mfc-est.vercel.app",
+    url: "https://finswimming.ee",
     desktop: mfcDesktop,
     mobile: mfcMobile,
     background: "#EAF2FB",

@@ -74,3 +74,11 @@ textarea {
 #root {
   min-height: 100vh;
 }
+
+@media (prefers-reduced-motion: reduce) {
+  [data-aos] {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+}

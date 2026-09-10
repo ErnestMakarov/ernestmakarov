@@ -20,7 +20,7 @@ const projects = [
     categoryKey: "featuredWork.projects.mfc.category",
     year: "2026",
     image: mfcImage,
-    href: "https://mfc-est.vercel.app",
+    href: "https://finswimming.ee",
   },
   {
     number: "03",
