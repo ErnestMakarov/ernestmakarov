@@ -1,7 +1,7 @@
 
 <div align="center">
 
-# Hey, I'm Ernest 👋
+# Hi, I'm Ernest 
 
 ### Software Developer · Tallinn, Estonia
 
@@ -107,18 +107,6 @@ A team project focused on building a cinema web application.
 </td>
 </tr>
 </table>
-
----
-
-### GitHub Activity
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=ErnestMakarov&show_icons=true&theme=github_dark&hide_border=true" height="170" alt="GitHub statistics" />
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ErnestMakarov&layout=compact&theme=github_dark&hide_border=true" height="170" alt="Most used languages" />
-
-</div>
 
 ---
 
